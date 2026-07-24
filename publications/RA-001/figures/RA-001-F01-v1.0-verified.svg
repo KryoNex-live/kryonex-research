@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF8"/>
+<text x="80" y="55" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#4A7A96"><tspan x="80" dy="0">KRYONEX RESEARCH</tspan></text>
+<text x="80" y="95" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#1B2430"><tspan x="80" dy="0">RA-001-F01 — Contemporary Pharmaceutical Supply Chain</tspan></text>
+<text x="80" y="130" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="#53616B"><tspan x="80" dy="0">Current-state baseline: physical product flow, custody handovers and enterprise-system boundaries</tspan></text>
+<line x1="80" y1="155" x2="1520" y2="155" stroke="#D6E1E6" stroke-width="2"/>
+<rect x="80" y="205" rx="10" width="190" height="180" fill="#FFFFFF" stroke="#D6E1E6" stroke-width="2"/>
+<circle cx="104" cy="231" r="15" fill="#4A7A96"/>
+<text x="104" y="237" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF"><tspan x="104" dy="0">1</tspan></text>
+<text x="175.0" y="266" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1B2430"><tspan x="175.0" dy="0">Manufacturer</tspan></text>
+<text x="175.0" y="325" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#1B2430"><tspan x="175.0" dy="0">Finished medicinal</tspan><tspan x="175.0" dy="17.5">product released</tspan></text>
+<line x1="273" y1="295" x2="281" y2="295" stroke="#1B2430" stroke-width="3"/>
+<polygon points="281,295 271,289 271,301" fill="#1B2430"/>
+<rect x="284" y="205" rx="10" width="190" height="180" fill="#FFFFFF" stroke="#D6E1E6" stroke-width="2"/>
+<circle cx="308" cy="231" r="15" fill="#4A7A96"/>
+<text x="308" y="237" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF"><tspan x="308" dy="0">2</tspan></text>
+<text x="379.0" y="266" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1B2430"><tspan x="379.0" dy="0">Packaging /</tspan><tspan x="379.0" dy="22.5">Serialization</tspan></text>
+<text x="379.0" y="325" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#1B2430"><tspan x="379.0" dy="0">Pack identification,</tspan><tspan x="379.0" dy="17.5">serialization and</tspan><tspan x="379.0" dy="17.5">aggregation</tspan></text>
+<line x1="477" y1="295" x2="485" y2="295" stroke="#1B2430" stroke-width="3"/>
+<polygon points="485,295 475,289 475,301" fill="#1B2430"/>
+<rect x="488" y="205" rx="10" width="190" height="180" fill="#FFFFFF" stroke="#D6E1E6" stroke-width="2"/>
+<circle cx="512" cy="231" r="15" fill="#4A7A96"/>
+<text x="512" y="237" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF"><tspan x="512" dy="0">3</tspan></text>
+<text x="583.0" y="266" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1B2430"><tspan x="583.0" dy="0">Manufacturer</tspan><tspan x="583.0" dy="22.5">Warehouse</tspan></text>
+<text x="583.0" y="325" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#1B2430"><tspan x="583.0" dy="0">Storage, order</tspan><tspan x="583.0" dy="17.5">preparation and dispatch</tspan></text>
+<line x1="681" y1="295" x2="689" y2="295" stroke="#1B2430" stroke-width="3"/>
+<polygon points="689,295 679,289 679,301" fill="#1B2430"/>
+<rect x="692" y="205" rx="10" width="190" height="180" fill="#FFFFFF" stroke="#D6E1E6" stroke-width="2"/>
+<circle cx="716" cy="231" r="15" fill="#4A7A96"/>
+<text x="716" y="237" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF"><tspan x="716" dy="0">4</tspan></text>
+<text x="787.0" y="266" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1B2430"><tspan x="787.0" dy="0">3PL / Logistics</tspan></text>
+<text x="787.0" y="325" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#1B2430"><tspan x="787.0" dy="0">Physical transport and</tspan><tspan x="787.0" dy="17.5">custody transfer</tspan></text>
+<line x1="885" y1="295" x2="893" y2="295" stroke="#1B2430" stroke-width="3"/>
+<polygon points="893,295 883,289 883,301" fill="#1B2430"/>
+<rect x="896" y="205" rx="10" width="190" height="180" fill="#FFFFFF" stroke="#D6E1E6" stroke-width="2"/>
+<circle cx="920" cy="231" r="15" fill="#4A7A96"/>
+<text x="920" y="237" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF"><tspan x="920" dy="0">5</tspan></text>
+<text x="991.0" y="266" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1B2430"><tspan x="991.0" dy="0">Wholesaler /</tspan><tspan x="991.0" dy="22.5">Distributor</tspan></text>
+<text x="991.0" y="325" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#1B2430"><tspan x="991.0" dy="0">Receipt, storage and</tspan><tspan x="991.0" dy="17.5">onward distribution</tspan></text>
+<line x1="1089" y1="295" x2="1097" y2="295" stroke="#1B2430" stroke-width="3"/>
+<polygon points="1097,295 1087,289 1087,301" fill="#1B2430"/>
+<rect x="1100" y="205" rx="10" width="190" height="180" fill="#FFFFFF" stroke="#D6E1E6" stroke-width="2"/>
+<circle cx="1124" cy="231" r="15" fill="#4A7A96"/>
+<text x="1124" y="237" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF"><tspan x="1124" dy="0">6</tspan></text>
+<text x="1195.0" y="266" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1B2430"><tspan x="1195.0" dy="0">Hospital /</tspan><tspan x="1195.0" dy="22.5">Pharmacy</tspan></text>
+<text x="1195.0" y="325" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#1B2430"><tspan x="1195.0" dy="0">Verification and</tspan><tspan x="1195.0" dy="17.5">dispensing activities</tspan></text>
+<line x1="1293" y1="295" x2="1301" y2="295" stroke="#1B2430" stroke-width="3"/>
+<polygon points="1301,295 1291,289 1291,301" fill="#1B2430"/>
+<rect x="1304" y="205" rx="10" width="190" height="180" fill="#FFFFFF" stroke="#D6E1E6" stroke-width="2"/>
+<circle cx="1328" cy="231" r="15" fill="#4A7A96"/>
+<text x="1328" y="237" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF"><tspan x="1328" dy="0">7</tspan></text>
+<text x="1399.0" y="266" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1B2430"><tspan x="1399.0" dy="0">Patient</tspan></text>
+<text x="1399.0" y="325" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#1B2430"><tspan x="1399.0" dy="0">Medicine supplied for</tspan><tspan x="1399.0" dy="17.5">intended use</tspan></text>
+<text x="80" y="405" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#4A7A96"><tspan x="80" dy="0">PHYSICAL HANDOVER POINTS</tspan></text>
+<circle cx="277.0" cy="425" r="7" fill="#4A7A96"/>
+<line x1="277.0" y1="433" x2="277.0" y2="451" stroke="#4A7A96" stroke-width="2"/>
+<text x="277.0" y="473" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="277.0" dy="0">H1</tspan><tspan x="277.0" dy="16.25">Release → Packaging</tspan></text>
+<circle cx="481.0" cy="425" r="7" fill="#4A7A96"/>
+<line x1="481.0" y1="433" x2="481.0" y2="451" stroke="#4A7A96" stroke-width="2"/>
+<text x="481.0" y="473" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="481.0" dy="0">H2</tspan><tspan x="481.0" dy="16.25">Packaging → Warehouse</tspan></text>
+<circle cx="685.0" cy="425" r="7" fill="#4A7A96"/>
+<line x1="685.0" y1="433" x2="685.0" y2="451" stroke="#4A7A96" stroke-width="2"/>
+<text x="685.0" y="473" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="685.0" dy="0">H3</tspan><tspan x="685.0" dy="16.25">Warehouse → Logistics</tspan></text>
+<circle cx="889.0" cy="425" r="7" fill="#4A7A96"/>
+<line x1="889.0" y1="433" x2="889.0" y2="451" stroke="#4A7A96" stroke-width="2"/>
+<text x="889.0" y="473" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="889.0" dy="0">H4</tspan><tspan x="889.0" dy="16.25">Logistics → Distributor</tspan></text>
+<circle cx="1093.0" cy="425" r="7" fill="#4A7A96"/>
+<line x1="1093.0" y1="433" x2="1093.0" y2="451" stroke="#4A7A96" stroke-width="2"/>
+<text x="1093.0" y="473" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="1093.0" dy="0">H5</tspan><tspan x="1093.0" dy="16.25">Distributor → Dispensing</tspan></text>
+<circle cx="1297.0" cy="425" r="7" fill="#4A7A96"/>
+<line x1="1297.0" y1="433" x2="1297.0" y2="451" stroke="#4A7A96" stroke-width="2"/>
+<text x="1297.0" y="473" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="1297.0" dy="0">H6</tspan><tspan x="1297.0" dy="16.25">Dispensing → Patient</tspan></text>
+<text x="80" y="513" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#4A7A96"><tspan x="80" dy="0">ENTERPRISE / OPERATIONAL SYSTEMS</tspan></text>
+<rect x="80" y="535" rx="8" width="190" height="72" fill="#F0F5F2" stroke="#D6E1E6" stroke-width="1.5"/>
+<text x="175.0" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="175.0" dy="0">ERP • MES</tspan><tspan x="175.0" dy="16.25">Quality</tspan></text>
+<rect x="284" y="535" rx="8" width="190" height="72" fill="#F0F5F2" stroke="#D6E1E6" stroke-width="1.5"/>
+<text x="379.0" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="379.0" dy="0">Serialization</tspan><tspan x="379.0" dy="16.25">Line systems</tspan></text>
+<rect x="488" y="535" rx="8" width="190" height="72" fill="#F0F5F2" stroke="#D6E1E6" stroke-width="1.5"/>
+<text x="583.0" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="583.0" dy="0">WMS</tspan><tspan x="583.0" dy="16.25">Inventory</tspan></text>
+<rect x="692" y="535" rx="8" width="190" height="72" fill="#F0F5F2" stroke="#D6E1E6" stroke-width="1.5"/>
+<text x="787.0" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="787.0" dy="0">TMS</tspan><tspan x="787.0" dy="16.25">Track &amp; trace</tspan></text>
+<rect x="896" y="535" rx="8" width="190" height="72" fill="#F0F5F2" stroke="#D6E1E6" stroke-width="1.5"/>
+<text x="991.0" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="991.0" dy="0">ERP • WMS</tspan><tspan x="991.0" dy="16.25">Inventory</tspan></text>
+<rect x="1100" y="535" rx="8" width="190" height="72" fill="#F0F5F2" stroke="#D6E1E6" stroke-width="1.5"/>
+<text x="1195.0" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="1195.0" dy="0">Pharmacy / Hospital</tspan><tspan x="1195.0" dy="16.25">systems</tspan></text>
+<rect x="1304" y="535" rx="8" width="190" height="72" fill="#F0F5F2" stroke="#D6E1E6" stroke-width="1.5"/>
+<text x="1399.0" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1B2430"><tspan x="1399.0" dy="0">—</tspan></text>
+<text x="80" y="646" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#4A7A96"><tspan x="80" dy="0">REGULATORY / VERIFICATION CONTEXT</tspan></text>
+<rect x="80" y="670" rx="10" width="430" height="105" fill="#EEF3F5" stroke="#4A7A96" stroke-width="1.5"/>
+<text x="100" y="697" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#1B2430"><tspan x="100" dy="0">European Union</tspan></text>
+<text x="100" y="723" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#4A7A96"><tspan x="100" dy="0">EMVS / national repositories</tspan></text>
+<text x="100" y="750" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#53616B"><tspan x="100" dy="0">End-to-end verification with defined intermediate checks</tspan></text>
+<rect x="545" y="670" rx="10" width="430" height="105" fill="#EEF3F5" stroke="#4A7A96" stroke-width="1.5"/>
+<text x="565" y="697" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#1B2430"><tspan x="565" dy="0">United States</tspan></text>
+<text x="565" y="723" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#4A7A96"><tspan x="565" dy="0">DSCSA ecosystem</tspan></text>
+<text x="565" y="750" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#53616B"><tspan x="565" dy="0">Interoperable electronic tracing among authorized trading partners</tspan></text>
+<rect x="1010" y="670" rx="10" width="430" height="105" fill="#EEF3F5" stroke="#4A7A96" stroke-width="1.5"/>
+<text x="1030" y="697" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#1B2430"><tspan x="1030" dy="0">India</tspan></text>
+<text x="1030" y="723" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#4A7A96"><tspan x="1030" dy="0">CDSCO / DAVA context</tspan></text>
+<text x="1030" y="750" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#53616B"><tspan x="1030" dy="0">Jurisdiction-specific serialization and QR-code requirements</tspan></text>
+<line x1="80" y1="815" x2="1520" y2="815" stroke="#D6E1E6" stroke-width="2"/>
+<text x="80" y="845" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1B2430"><tspan x="80" dy="0">Legend:</tspan></text>
+<line x1="145" y1="840" x2="195" y2="840" stroke="#1B2430" stroke-width="3"/>
+<text x="205" y="845" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#1B2430"><tspan x="205" dy="0">Physical product flow</tspan></text>
+<circle cx="390" cy="840" r="6" fill="#4A7A96"/>
+<text x="405" y="845" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#1B2430"><tspan x="405" dy="0">Custody / handover boundary</tspan></text>
+<text x="1520" y="845" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#66727A"><tspan x="1520" dy="0">© 2026 KryoNex Research • RA-001 • Current-state conceptual model</tspan></text>
+<text x="80" y="878" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#66727A"><tspan x="80" dy="0">Note: Regulatory obligations vary by jurisdiction and trading-partner role. This figure is a conceptual baseline, not a compliance specification.</tspan></text>
+</svg>
