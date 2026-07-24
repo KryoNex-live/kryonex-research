@@ -6,14 +6,17 @@
 ## Open Items
 
 - [ ] Complete primary-source validation of the bibliography.
-- [ ] Resolve or remove citations pending verification.
-- [ ] Complete F02 — Current Traceability Landscape.
-- [ ] Complete F03 — Trust & Visibility Boundaries.
-- [ ] Complete F04 — Logical Reference Architecture.
-- [ ] Validate terminology against GS1 EPCIS/CBV 2.0.
-- [ ] Complete regulatory review for US, EU, and India.
+- [ ] Resolve or remove any citations remaining under verification.
+- [x] Develop F01 — Contemporary Pharmaceutical Supply Chain.
+- [x] Develop F02 — Current Pharmaceutical Traceability Landscape.
+- [x] Develop F03 — Trust & Visibility Boundaries.
+- [ ] Complete F04 — Proposed Logical Reference Architecture.
+- [ ] Validate final terminology against GS1 EPCIS/CBV 2.0.
+- [ ] Complete final regulatory review for US, EU, and India.
 - [ ] Perform public-disclosure/IP boundary review.
+- [ ] Complete final technical review of F01–F04 as one architecture.
 - [ ] Complete final editorial review.
+- [ ] Freeze publication assets and figure versions.
 
 ## Release Gate
 
