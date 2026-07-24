@@ -1,20 +1,21 @@
-# review-notes.md Template
+# RA-001 Technical Review Notes
 
-Copy into each publication's folder. This file is INTERNAL — never
-published, never linked from the live site. Keep raw, unfiltered reviewer
-feedback here so nothing gets lost between drafts.
+**Current Version:** 0.4  
+**Status:** Under Technical Review
 
----
+## Open Items
 
-# RA-001 Review Notes
-
-## Open Review Items
-
-- [ ] Complete primary-source verification of all regulatory claims.
-- [ ] Resolve or remove unverified secondary references.
+- [ ] Complete primary-source validation of the bibliography.
+- [ ] Resolve or remove citations pending verification.
 - [ ] Complete F02 — Current Traceability Landscape.
 - [ ] Complete F03 — Trust & Visibility Boundaries.
 - [ ] Complete F04 — Logical Reference Architecture.
-- [ ] Perform final terminology review.
-- [ ] Perform IP/public-disclosure review.
-- [ ] Complete editorial review for v1.0 release candidate.
+- [ ] Validate terminology against GS1 EPCIS/CBV 2.0.
+- [ ] Complete regulatory review for US, EU, and India.
+- [ ] Perform public-disclosure/IP boundary review.
+- [ ] Complete final editorial review.
+
+## Release Gate
+
+RA-001 must not be marked v1.0 or Published until all open
+technical-review items affecting substantive claims are resolved.
