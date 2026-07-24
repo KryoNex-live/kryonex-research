@@ -681,50 +681,122 @@ systems analysis.
 
 ## 5.2 F02 — Current Pharmaceutical Traceability Landscape
 
-**Status: Under development for RA-001 v0.5.**
+![Figure 2 — Current Pharmaceutical Traceability Landscape](figures/RA-001-F02.PNG)
 
-F02 will map the major digital layers currently surrounding the physical
-product:
+**Figure 2. Current Pharmaceutical Traceability Landscape.**  
+A vendor-neutral systems view of the principal digital layers surrounding the
+physical pharmaceutical supply chain, including product identification,
+enterprise and edge systems, traceability-event interoperability,
+trading-partner exchange, and jurisdiction-specific regulatory or partner
+ecosystems.
 
-1. identification and observation.
-2. enterprise and edge systems.
-3. traceability-event interoperability.
-4. trading-partner exchange. and
-5. jurisdiction-specific regulatory or partner ecosystems.
+**Source:** KryoNex Research synthesis derived from the RA-001 current-state
+analysis and supporting standards and regulatory evidence.
 
-The figure will explicitly avoid implying that these components form one
-universally integrated technology stack.
+F02 establishes that pharmaceutical traceability should not be treated as one
+globally integrated technology stack.
 
-Instead, F02 will identify organizational and system boundaries so that the
-reader can see where traceability information originates and where it crosses
-between independently governed environments.
+Relevant information can be created, maintained, exchanged, or verified across
+multiple independently governed environments, including:
+
+1. product and logistics-unit identification;
+2. serialization and aggregation systems;
+3. MES, ERP, WMS, TMS, and serialization repositories;
+4. GS1 EPCIS / CBV event exchange;
+5. trading-partner interfaces and verification mechanisms;
+6. dispensing and endpoint systems; and
+7. jurisdiction-specific regulatory or partner ecosystems.
+
+These components can interoperate while retaining separate ownership,
+governance, authority, and system-of-record responsibilities.
+
+The architectural significance of F02 is therefore not that existing
+traceability infrastructure is absent. Substantial infrastructure already
+exists.
+
+The relevant question is where assurance must cross organizational, physical,
+identity, observation, or system boundaries.
+
+That question is examined in F03.
 
 ---
 
 ## 5.3 F03 — Trust and Visibility Boundaries
 
-**Status: Under development.**
+![Figure 3 — Trust and Visibility Boundaries in Pharmaceutical Traceability](figures/RA-001-F03-v0.4.svg)
 
-F03 will analyze the boundaries revealed by F01 and F02.
+**Figure 3. Trust and Visibility Boundaries in Pharmaceutical Traceability.**  
+A conceptual assurance model identifying transitions among physical products,
+digital identities and observations, traceability records, independently
+governed systems, trading partners, and external verification or regulatory
+ecosystems.
 
-Candidate relationships under investigation include:
+**Source:** KryoNex Research architectural synthesis derived from the RA-001
+current-state analysis and supporting standards and regulatory evidence.
 
-- physical product ↔ serialized identity.
-- serialized identity ↔ aggregation hierarchy.
-- physical custody ↔ digital custody event.
-- custody event ↔ environmental evidence.
-- organization identity ↔ system authorization.
-- enterprise record ↔ partner event.
-- partner event ↔ regulatory/verification state and
-- digital history ↔ physical-world authenticity.
+F03 introduces an important distinction:
 
-The purpose of F03 is not to assume that each relationship is broken.
+> **Boundary ≠ Failure**
 
-It is to identify **where verification depends on another system, organization,
-credential, observation, or assertion**.
+A boundary identifies a transition at which assurance may depend on evidence,
+controls, reconciliation, authorization, correlation, or governance. The
+existence of a boundary does not itself demonstrate a control failure or
+traceability weakness.
 
-Only evidence-supported gaps identified through this analysis should become
-requirements for F04.
+The analysis organizes cross-boundary assurance around four questions:
+
+### Q1 — Product Identity
+
+Is sufficient confidence established that the physical product corresponds to
+the digital identifier being used?
+
+Serialization can identify a package, but digital identity and physical reality
+remain distinct domains.
+
+### Q2 — Event Integrity
+
+Can the origin, sequence, timing, and representation integrity of a digital
+traceability event be assessed?
+
+Integrity of a digital record should not be interpreted automatically as proof
+that the represented physical-world event occurred exactly as recorded.
+
+### Q3 — Organizational Authority
+
+Can the participating organization be identified and can its relevant
+authorization or status be evaluated for the applicable interaction?
+
+Organizational identity, system authentication, regulatory status, and
+transaction authorization are related but distinct concerns.
+
+### Q4 — Observation Correlation
+
+Can an environmental or logistics observation be associated with the relevant
+product, logistics unit, event, location, time interval, or custody period at
+the granularity required by the use case?
+
+Sensor evidence becomes more useful when its relationship to traceability
+identity and custody can be established.
+
+F03 also highlights three recurring boundary patterns:
+
+1. **Physical possession versus legal or transactional responsibility** —
+   custody transfer and data-recording responsibility may occur on different
+   timelines.
+
+2. **Heterogeneous regulatory or implementation state** — participants may
+   operate under different jurisdictional requirements, implementation
+   timelines, or technical maturity.
+
+3. **Endpoint verification and lifecycle closure** — some workflows require
+   evidence of an appropriate terminal or lifecycle status.
+
+F03 remains vendor-neutral and non-prescriptive. It does not establish
+blockchain, distributed ledgers, credentials, or any other particular
+technology as the required mechanism for resolving these boundaries.
+
+The purpose of F03 is to establish which assurance requirements are sufficiently
+supported by evidence to justify architectural mechanisms in F04.
 
 ---
 
@@ -1136,7 +1208,9 @@ RA-001 v0.4 is a research reference architecture.
 It has not yet been validated as a complete production implementation across
 multiple pharmaceutical trading partners.
 
-F02, F03 and F04 remain under technical development.
+F01 establishes the physical reference model, F02 documents the current
+traceability landscape, and F03 establishes the trust and visibility boundary
+model. F04 remains under technical development and has not yet been frozen.
 
 ---
 
@@ -1242,9 +1316,12 @@ controls.
 - **Digital verification does not replace physical controls.** A trustworthy
   pharmaceutical supply chain requires both physical and digital evidence.
 
-- **The next architectural question is where trust actually breaks.** F02 and
-  F03 will map the current systems landscape and the boundaries at which one
-  participant must rely on evidence created by another.
+- **- **The next architectural question is which mechanisms are justified at each
+  assurance boundary.** F01 establishes the physical domain, F02 maps the
+  current systems landscape, and F03 identifies the assurance boundaries.
+  F04 will evaluate which mechanisms, if any, can strengthen assurance across
+  those boundaries without unnecessarily replacing existing authoritative
+  systems.
 
 ---
 
@@ -1339,7 +1416,7 @@ Reference architectures are provided for informational and research purposes.
 Implementation requirements vary by organization, jurisdiction, product class,
 risk profile and regulatory environment.
 
-This publication does not constitute legal, regulatory, medical, quality, or
+This publication does not constitute legal, regulatory, medical, quality or
 compliance advice.
 
 **© 2026 KryoNex Research.**
