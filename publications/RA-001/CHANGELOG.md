@@ -1,19 +1,16 @@
-# CHANGELOG.md Template
+# RA-001 Changelog
 
-Copy this into every publication's folder as `CHANGELOG.md`. One entry per
-published version — not every draft edit, only meaningful revisions after
-initial publication.
+## 0.4 — 2026-07-24
 
----
+### Changed
+- Reframed RA-001 as a vendor-neutral reference architecture.
+- Updated traceability analysis to GS1 EPCIS/CBV 2.0.
+- Separated U.S., EU, and Indian regulatory architectures.
+- Added June 2026 Indian Schedule H2 developments.
+- Removed assumptions that distributed ledgers are universally required.
+- Added logical Trust & Verification layer.
+- Added evidence register and primary-source validation workflow.
+- Revised performance assumptions and implementation limitations.
 
-# Changelog — RA-001: Pharmaceutical Supply Chain Traceability
-
-## Version 1.0 — {YYYY-MM-DD}
-Initial publication.
-
-## Version 1.1 — {YYYY-MM-DD}
-{e.g. Updated GS1 references to 2027 revision.}
-
-## Version 2.0 — {YYYY-MM-DD}
-{Use a major version bump when the architecture itself changes, not just
-references — e.g. "Architecture revised following EPCIS 2.0 update."}
+### Status
+Under Technical Review.
