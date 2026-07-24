@@ -213,8 +213,8 @@ created the RA-001 architecture.
 | Federation-of-systems model | KryoNex Research synthesis | Original architectural framing |
 | Trust-boundary-first methodology | KryoNex Research | Original design principle |
 | Evidence-before-technology principle | KryoNex Research | Original design principle |
-| F02 Current Traceability Landscape | KryoNex Research | Under development |
-| F03 Trust & Visibility Boundaries | KryoNex Research | Under development |
+| F02 Current Traceability Landscape | KryoNex Research synthesis from standards, regulatory frameworks, and current-state systems analysis | Developed — under technical review |
+| F03 Trust & Visibility Boundaries | KryoNex Research assurance-boundary synthesis | Developed — under technical review |
 | F04 Logical Trust & Verification Architecture | KryoNex Research | Under development |
 | Distributed ledger treated as optional rather than foundational | KryoNex Research architecture decision | Active design constraint |
 
@@ -355,18 +355,26 @@ Before a claim is promoted into RA-001 v1.0:
 At this revision:
 
 - F01 establishes the physical supply-chain reference model.
+- F02 establishes the current pharmaceutical traceability systems landscape.
+- F03 establishes the trust and visibility boundary model.
 - Current regulatory and standards evidence has been classified.
-- Architectural provenance has been separated from external standards.
-- Blockchain/distributed-ledger technology is explicitly optional.
-- F02 has not yet been frozen.
-- F03 has not yet been frozen.
+- Architectural provenance has been separated from external standards and
+  regulatory requirements.
+- Blockchain/distributed-ledger technology remains explicitly optional.
+- F01–F03 remain subject to final publication-level technical and editorial
+  review.
 - F04 has not yet been frozen.
 
-The next research milestone is **F02 — Current Pharmaceutical Traceability
-Landscape**.
+The next research milestone is **F04 — Proposed Logical Reference
+Architecture**.
 
-F02 must be constructed from the verified current-state evidence before RA-001
-moves to trust-gap analysis.
+F04 must derive architectural mechanisms from the assurance requirements
+identified through F03 rather than beginning with a preferred technology.
+
+Blockchain, distributed ledgers, digital credentials, signatures, IoT,
+cryptographic proofs, registries, and conventional centralized mechanisms
+must therefore be evaluated as architectural options where applicable, not
+assumed requirements.
 
 ---
 
