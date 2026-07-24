@@ -6,13 +6,15 @@ feedback here so nothing gets lost between drafts.
 
 ---
 
-# Review Notes — RA-001
+# RA-001 Review Notes
 
-## {Reviewer name} — {date}
-- Need stronger justification for [claim/section]
-- Replace reference [N] — [reason]
-- Figure [N] unclear — [what's confusing]
-- [Section] incomplete — [what's missing]
+## Open Review Items
 
-## Resolved
-- [x] {item} — resolved in draft v{N}, {date}
+- [ ] Complete primary-source verification of all regulatory claims.
+- [ ] Resolve or remove unverified secondary references.
+- [ ] Complete F02 — Current Traceability Landscape.
+- [ ] Complete F03 — Trust & Visibility Boundaries.
+- [ ] Complete F04 — Logical Reference Architecture.
+- [ ] Perform final terminology review.
+- [ ] Perform IP/public-disclosure review.
+- [ ] Complete editorial review for v1.0 release candidate.
