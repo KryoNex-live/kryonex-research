@@ -1,13 +1,20 @@
 ---
 id: RA-001
 title: "Building Trust Across the Pharmaceutical Supply Chain: A Reference Architecture for End-to-End Traceability Using IoT and Distributed Ledgers"
-subtitle: "Building Trust Across the Pharmaceutical Supply Chain: A Reference Architecture for End-to-End Traceability Using IoT and Distributed Ledgers"
-author: ""
-author_role: ""
-status: draft            # draft | in-review | published
+subtitle: "Building Trust Across the Pharmaceutical Supply Chain"
+author: "A.S.Tomar"
+author_role: "KryoNex Research & Engineering Team"
+status: working-draft            # working-draft | in-review | published
+document_version: 0.4
 publish_date: ""
-last_updated: ""
-tags: []
+last_updated: "2026-07-24"
+tags:
+  - pharmaceutical-traceability
+  - supply-chain
+  - GS1-EPCIS
+  - serialization
+  - IoT
+  - digital-trust
 ---
 
 # {Title}
