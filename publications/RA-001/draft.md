@@ -33,7 +33,7 @@ Prepared by **A. S. Tomar — KryoNex Research & Engineering Team**
 > RA-001 is a working reference architecture. It examines existing
 > pharmaceutical traceability mechanisms and develops a vendor-neutral
 > architectural model for connecting product identity, traceability events,
-> environmental observations, enterprise systems, and trust mechanisms across
+> environmental observations, enterprise systems and trust mechanisms across
 > organizational boundaries.
 >
 > This version does not propose distributed-ledger technology, blockchain, IoT,
@@ -45,23 +45,23 @@ Prepared by **A. S. Tomar — KryoNex Research & Engineering Team**
 
 Pharmaceutical traceability is not a single-system problem. A medicinal product
 can pass through manufacturers, logistics providers, wholesalers, distributors,
-pharmacies, hospitals, regulatory environments, and other independently
+pharmacies, hospitals, regulatory environments and other independently
 operated organizations before reaching a patient. During that journey, physical
 product movement must be associated with identifiers, serialization records,
-business transactions, custody events, verification activities, and, for some
+business transactions, custody events, verification activities and, for some
 products, environmental observations.
 
 Significant infrastructure already exists. GS1 identification standards provide
 globally recognized product and logistics identifiers. GS1 EPCIS and Core
 Business Vocabulary (CBV) provide standards for sharing visibility-event data.
-The United States, European Union, India, and other jurisdictions operate
+The United States, European Union, India and other jurisdictions operate
 different regulatory and implementation models for pharmaceutical
-serialization, verification, and traceability.
+serialization, verification and traceability.
 
 The architectural challenge is therefore not simply to create another tracking
 database. It is to understand how independently governed physical and digital
 systems can exchange relevant evidence while preserving regulatory boundaries,
-organizational control, interoperability, security, and operational
+organizational control, interoperability, security and operational
 performance.
 
 RA-001 examines this problem from the point at which serialized pharmaceutical
@@ -69,12 +69,12 @@ packaging enters distribution through subsequent logistics and trading-partner
 handovers toward dispensing. It separates six concerns that are frequently
 collapsed into a single concept of "track and trace":
 
-1. physical product movement;
-2. product and logistics-unit identification;
-3. traceability-event capture and exchange;
-4. enterprise-system records;
-5. environmental observations; and
-6. identity, authorization, and evidence validation across organizational
+1. physical product movement.
+2. product and logistics-unit identification.
+3. traceability-event capture and exchange.
+4. enterprise-system records.
+5. environmental observations. and
+6. identity, authorization and evidence validation across organizational
    boundaries.
 
 The resulting reference architecture is deliberately vendor-neutral. Existing
@@ -84,7 +84,7 @@ shared ledgers, or other trust mechanisms are considered optional architectural
 patterns whose usefulness depends on the trust boundary being addressed.
 
 The principal trade-off is therefore between stronger cross-organizational
-verification and the additional governance, integration, latency, privacy, and
+verification and the additional governance, integration, latency, privacy and
 operational complexity introduced by those mechanisms.
 
 ---
@@ -120,7 +120,7 @@ remains incomplete.
 The problem addressed by RA-001 is therefore:
 
 > **How can pharmaceutical product identity, physical custody, traceability
-> events, environmental evidence, and independently governed digital systems
+> events, environmental evidence and independently governed digital systems
 > be connected in a way that improves verifiability without replacing
 > authoritative regulatory or enterprise systems?**
 
@@ -139,39 +139,38 @@ distribution.
 
 The physical model includes:
 
-- pharmaceutical manufacturer / packaging site;
-- warehouse and dispatch operations;
-- third-party logistics providers;
-- distributors and wholesalers;
-- pharmacies and healthcare dispensing environments; and
+- pharmaceutical manufacturer / packaging site.
+- warehouse and dispatch operations.
+- third-party logistics providers.
+- distributors and wholesalers.
+- pharmacies and healthcare dispensing environments and
 - the final patient-facing handover.
 
 The digital model considers:
 
-- product identification and serialization;
-- packaging aggregation;
-- traceability-event generation;
-- GS1 EPCIS and CBV;
-- MES, serialization repositories, ERP, WMS, and TMS;
-- pharmacy and hospital dispensing systems;
-- regulatory and trading-partner verification mechanisms;
-- IoT and sensor observations where relevant; and
-- mechanisms for validating identity, authorization, provenance, and evidence.
+- product identification and serialization.
+- packaging aggregation.
+- traceability-event generation.
+- GS1 EPCIS and CBV.
+- MES, serialization repositories, ERP, WMS and TMS.
+- pharmacy and hospital dispensing systems.
+- regulatory and trading-partner verification mechanisms.
+- IoT and sensor observations where relevant. and
+- mechanisms for validating identity, authorization, provenance and evidence.
 
 ## 2.2 Geographic Scope
 
 RA-001 is globally oriented but uses three regulatory environments as major
 reference points:
 
-- United States;
-- European Union; and
-- India.
+- United States.
+- European Union and India.
 
 These jurisdictions are not treated as having equivalent architectures.
 
-The U.S. DSCSA environment, European medicines-verification environment, and
+The U.S. DSCSA environment, European medicines-verification environment and
 Indian domestic/export traceability requirements have different legal,
-technical, and operational structures.
+technical and operational structures.
 
 ## 2.3 Research Method
 
@@ -180,10 +179,10 @@ commercial platform.
 
 Evidence is prioritized approximately as follows:
 
-1. primary legislation, regulatory notifications, and government guidance;
-2. formal standards and specifications;
-3. standards-body and industry implementation guidance;
-4. peer-reviewed academic literature; and
+1. primary legislation, regulatory notifications and government guidance.
+2. formal standards and specifications.
+3. standards-body and industry implementation guidance.
+4. peer-reviewed academic literature and
 5. established technical and intergovernmental research.
 
 Material factual and regulatory claims are mapped separately in the
@@ -213,13 +212,13 @@ This distinction is fundamental to RA-001.
 
 Version 0.4 does not attempt to:
 
-- replace DSCSA, EMVS/NMVS, CDSCO, DAVA, or other regulatory infrastructure;
-- define a new pharmaceutical serialization standard;
-- prescribe a specific blockchain or distributed-ledger platform;
-- prescribe a particular IoT vendor or device;
-- claim that digital records alone establish physical authenticity;
-- provide a production deployment blueprint for a specific organization;
-- provide legal or regulatory advice; or
+- replace DSCSA, EMVS/NMVS, CDSCO, DAVA, or other regulatory infrastructure.
+- define a new pharmaceutical serialization standard.
+- prescribe a specific blockchain or distributed-ledger platform.
+- prescribe a particular IoT vendor or device.
+- claim that digital records alone establish physical authenticity.
+- provide a production deployment blueprint for a specific organization.
+- provide legal or regulatory advice or
 - claim that one architecture applies unchanged across all jurisdictions.
 
 ---
@@ -234,7 +233,7 @@ its movement and handling through the supply chain.
 
 Effective traceability can involve several different forms of evidence:
 serialized product identifiers, logistics-unit identifiers, business
-transactions, event records, regulatory verification, custody changes, and
+transactions, event records, regulatory verification, custody changes and
 environmental observations.
 
 These records are not necessarily created or controlled by the same system.
@@ -247,10 +246,10 @@ Pharmaceutical traceability begins with the ability to identify products and,
 where required, individual saleable units.
 
 GS1-based implementations can combine product identifiers with serial numbers,
-batch or lot information, and expiration information in machine-readable data
+batch or lot information and expiration information in machine-readable data
 carriers such as 2D DataMatrix symbols.
 
-Logistics hierarchies introduce another level of identity. Cases, pallets, and
+Logistics hierarchies introduce another level of identity. Cases, pallets and
 other logistics units can be assigned identifiers such as the Serial Shipping
 Container Code (SSCC).
 
@@ -278,27 +277,27 @@ events and their context across supply-chain processes [2].
 
 Depending on the implementation, relevant lifecycle activities can include:
 
-- commissioning identifiers;
-- aggregation and disaggregation;
-- packing;
-- shipping;
-- receiving;
-- transformation;
-- dispensing or decommissioning; and
+- commissioning identifiers.
+- aggregation and disaggregation.
+- packing.
+- shipping.
+- receiving.
+- transformation.
+- dispensing or decommissioning and
 - other business-process events.
 
 EPCIS 2.0 extends the standards environment beyond legacy XML-centric
 implementations. It supports JSON/JSON-LD representations, REST-oriented
-interfaces, and sensor-related data capabilities [2].
+interfaces and sensor-related data capabilities [2].
 
 RA-001 therefore treats EPCIS as an important interoperability layer rather
 than as a centralized pharmaceutical database.
 
 An EPCIS event can answer questions such as:
 
-- **what** objects were involved;
-- **when** the event occurred;
-- **where** it occurred; and
+- **what** objects were involved.
+- **when** the event occurred.
+- **where** it occurred and
 - **why** the event occurred in a particular business context.
 
 The reliability of the resulting history still depends on the systems and
@@ -319,27 +318,27 @@ operations and can participate in serialization workflows.
 ### Serialization Repositories
 
 Serialization repositories maintain identifier states, packaging hierarchies,
-commissioning information, and related serialization records.
+commissioning information and related serialization records.
 
 ### Enterprise Resource Planning
 
 ERP systems associate product movement with commercial and organizational
-processes such as orders, invoices, customers, and inventory accounting.
+processes such as orders, invoices, customers and inventory accounting.
 
 ### Warehouse Management Systems
 
 WMS platforms manage warehouse operations including receiving, put-away,
-picking, packing, and dispatch.
+picking, packing and dispatch.
 
 ### Transportation Management Systems
 
-TMS platforms coordinate shipment planning, carriers, routes, and
+TMS platforms coordinate shipment planning, carriers, routes and
 transportation execution.
 
 ### Pharmacy and Hospital Systems
 
 Endpoint systems can participate in verification, dispensing, decommissioning,
-inventory management, and patient-facing workflows depending on jurisdiction
+inventory management and patient-facing workflows depending on jurisdiction
 and implementation.
 
 No single one of these systems necessarily represents the complete
@@ -363,15 +362,15 @@ operate legacy EPCIS environments or other partner-integration mechanisms [2].
 
 Real implementations can therefore contain combinations of:
 
-- EPCIS interfaces;
-- XML-based exchanges;
-- JSON/JSON-LD;
-- REST APIs;
-- AS2;
-- managed file transfer;
-- SFTP;
-- message brokers;
-- integration platforms; and
+- EPCIS interfaces.
+- XML-based exchanges.
+- JSON/JSON-LD.
+- REST APIs.
+- AS2.
+- managed file transfer.
+- SFTP.
+- message brokers.
+- integration platforms and
 - proprietary trading-partner APIs.
 
 RA-001 does not assume that every participant operates EPCIS 2.0 natively.
@@ -384,12 +383,12 @@ when integrating with EPCIS 2.0 environments.
 
 Transformation introduces its own engineering questions:
 
-- semantic preservation;
-- schema-version management;
-- event deduplication;
-- identifier normalization;
-- error handling;
-- retry behavior; and
+- semantic preservation.
+- schema-version management.
+- event deduplication.
+- identifier normalization.
+- error handling.
+- retry behavior and
 - provenance of transformed records.
 
 Interoperability therefore involves more than converting one payload syntax
@@ -410,7 +409,7 @@ prescription drugs as they move through the supply chain [1].
 
 The DSCSA environment involves authorized trading partners, product
 identifiers, transaction information, verification, investigation of suspect
-and illegitimate product, and interoperable electronic exchange.
+and illegitimate product and interoperable electronic exchange.
 
 Verification Router Service implementations have also emerged as
 industry-developed mechanisms supporting product-identifier verification
@@ -483,10 +482,10 @@ depend on environmental conditions.
 Temperature-sensitive medicines and biological products may be monitored using
 devices such as:
 
-- temperature data loggers;
-- humidity sensors;
-- active IoT sensors;
-- location-aware monitoring devices; and
+- temperature data loggers.
+- humidity sensors.
+- active IoT sensors.
+- location-aware monitoring devices and
 - shock or handling sensors where appropriate.
 
 Historically and operationally, environmental telemetry can reside in systems
@@ -497,7 +496,7 @@ documentation, or exposed through monitoring platforms.
 This creates an architectural question:
 
 > Can an organization reliably associate an environmental observation with the
-> correct product, logistics unit, location, time interval, and custody event?
+> correct product, logistics unit, location, time interval and custody event?
 
 EPCIS 2.0 provides standardized capabilities for incorporating sensor data into
 visibility information, including information relevant to cold-chain
@@ -518,7 +517,7 @@ whose implementation varies between organizations and supply chains.
 # 4. Technical and Trust Challenges
 
 The current landscape already provides significant product-identification,
-serialization, event-exchange, enterprise, and regulatory capabilities.
+serialization, event-exchange, enterprise and regulatory capabilities.
 
 RA-001 does not assume these systems are failures.
 
@@ -531,11 +530,11 @@ Different systems are authoritative for different facts.
 
 For example:
 
-- a packaging system may establish serialization state;
-- a WMS may establish warehouse execution;
-- a TMS may establish transportation activity;
-- a sensor platform may record temperature;
-- a trading partner may record receipt;
+- a packaging system may establish serialization state.
+- a WMS may establish warehouse execution.
+- a TMS may establish transportation activity.
+- a sensor platform may record temperature.
+- a trading partner may record receipt.
 - a regulatory repository may establish verification state.
 
 No single system necessarily has authority over all of them.
@@ -556,14 +555,14 @@ Traceability architectures must therefore distinguish:
 
 Physical custody changes can occur across independently operated organizations.
 
-A traceability history is stronger when shipment, dispatch, receipt, and
+A traceability history is stronger when shipment, dispatch, receipt and
 aggregation records can be correlated consistently, but gaps can occur when:
 
-- identifiers are not captured;
-- event data is delayed;
-- partners use incompatible systems;
-- aggregation relationships change;
-- exceptions are handled manually; or
+- identifiers are not captured.
+- event data is delayed.
+- partners use incompatible systems.
+- aggregation relationships change.
+- exceptions are handled manually or
 - data remains within one participant's system.
 
 ## 4.4 Identity and Authorization
@@ -582,11 +581,11 @@ Transport security alone does not answer every organizational-trust question.
 
 Sensor data becomes substantially more useful when it can be correlated with:
 
-- a product or logistics-unit identifier;
-- a time interval;
-- a physical location;
-- a shipment;
-- a custody holder; and
+- a product or logistics-unit identifier.
+- a time interval.
+- a physical location.
+- a shipment.
+- a custody holder and
 - relevant traceability events.
 
 Without reliable correlation, telemetry may establish that a sensor experienced
@@ -607,13 +606,13 @@ system simultaneously.
 
 Any practical architecture must therefore accommodate:
 
-- legacy interfaces;
-- asynchronous exchange;
-- multiple schema versions;
-- partial partner adoption;
-- temporary network failures;
-- retries;
-- duplicate messages; and
+- legacy interfaces.
+- asynchronous exchange.
+- multiple schema versions.
+- partial partner adoption.
+- temporary network failures.
+- retries.
+- duplicate messages and
 - differing organizational modernization timelines.
 
 ## 4.8 Data Governance and Confidentiality
@@ -630,7 +629,7 @@ A trust architecture must therefore answer not only:
 
 but also:
 
-> "Who needs this information, for what purpose, and at what level of
+> "Who needs this information, for what purpose and at what level of
 > granularity?"
 
 ---
@@ -651,7 +650,7 @@ the underlying evidence originates.
 
 **Figure 1. Contemporary Pharmaceutical Supply Chain.**  
 A conceptual physical-flow model from pharmaceutical packaging and
-serialization through logistics, distribution, dispensing, and the final
+serialization through logistics, distribution, dispensing and the final
 patient-facing handover.
 
 **Source:** KryoNex Research synthesis. The figure represents an architectural
@@ -668,7 +667,7 @@ At each handover, different questions can arise:
 | Packaging | Which identifier was commissioned and attached to the physical package? |
 | Aggregation | Which serialized units belong to which case or pallet? |
 | Dispatch | Which physical logistics unit left which controlled location? |
-| Transportation | Who had custody, and what environmental conditions were observed? |
+| Transportation | Who had custody and what environmental conditions were observed? |
 | Receiving | Was the expected product physically received and recorded? |
 | Distribution | Were aggregation and identity relationships preserved? |
 | Dispensing | Was the identifier verified/decommissioned as required? |
@@ -687,10 +686,10 @@ systems analysis.
 F02 will map the major digital layers currently surrounding the physical
 product:
 
-1. identification and observation;
-2. enterprise and edge systems;
-3. traceability-event interoperability;
-4. trading-partner exchange; and
+1. identification and observation.
+2. enterprise and edge systems.
+3. traceability-event interoperability.
+4. trading-partner exchange. and
 5. jurisdiction-specific regulatory or partner ecosystems.
 
 The figure will explicitly avoid implying that these components form one
@@ -710,13 +709,13 @@ F03 will analyze the boundaries revealed by F01 and F02.
 
 Candidate relationships under investigation include:
 
-- physical product ↔ serialized identity;
-- serialized identity ↔ aggregation hierarchy;
-- physical custody ↔ digital custody event;
-- custody event ↔ environmental evidence;
-- organization identity ↔ system authorization;
-- enterprise record ↔ partner event;
-- partner event ↔ regulatory/verification state; and
+- physical product ↔ serialized identity.
+- serialized identity ↔ aggregation hierarchy.
+- physical custody ↔ digital custody event.
+- custody event ↔ environmental evidence.
+- organization identity ↔ system authorization.
+- enterprise record ↔ partner event.
+- partner event ↔ regulatory/verification state and
 - digital history ↔ physical-world authenticity.
 
 The purpose of F03 is not to assume that each relationship is broken.
@@ -752,7 +751,7 @@ This model is intentionally logical rather than vendor-specific.
 ### Layer 1 — Physical Product and Handover
 
 The physical layer represents medicinal products, packaging hierarchies,
-shipments, custody transfers, and dispensing activities.
+shipments, custody transfers and dispensing activities.
 
 Digital architecture ultimately depends on evidence generated from this layer.
 
@@ -760,13 +759,13 @@ Digital architecture ultimately depends on evidence generated from this layer.
 
 This layer can include:
 
-- GTIN;
-- serial number;
-- batch/lot;
-- expiration;
-- SSCC;
-- DataMatrix;
-- RFID where used; and
+- GTIN.
+- serial number.
+- batch/lot.
+- expiration.
+- SSCC.
+- DataMatrix.
+- RFID where used and
 - environmental observations.
 
 Its role is to connect physical objects and conditions with machine-readable
@@ -776,13 +775,13 @@ identity and observations.
 
 This layer includes operational systems such as:
 
-- packaging-line systems;
-- MES;
-- serialization repositories;
-- ERP;
-- WMS;
-- TMS;
-- IoT gateways; and
+- packaging-line systems.
+- MES.
+- serialization repositories.
+- ERP.
+- WMS.
+- TMS.
+- IoT gateways and
 - dispensing systems.
 
 These systems remain responsible for the business and operational processes
@@ -803,23 +802,23 @@ This layer is not synonymous with blockchain.
 
 Its purpose is to evaluate mechanisms for establishing:
 
-- organizational identity;
-- authorization;
-- message integrity;
-- evidence provenance;
-- credential validity;
-- tamper evidence; and
+- organizational identity.
+- authorization.
+- message integrity.
+- evidence provenance.
+- credential validity.
+- tamper evidence and
 - cross-organizational verification.
 
 Possible mechanisms can include:
 
-- conventional PKI;
-- digital signatures;
-- verifiable credentials;
-- signed event envelopes;
-- trusted directories;
-- append-only audit structures;
-- shared or distributed ledgers; and
+- conventional PKI.
+- digital signatures.
+- verifiable credentials.
+- signed event envelopes.
+- trusted directories.
+- append-only audit structures.
+- shared or distributed ledgers and
 - combinations of these mechanisms.
 
 The appropriate mechanism depends on the trust boundary.
@@ -831,10 +830,10 @@ jurisdiction-specific and partner infrastructure.
 
 Examples include:
 
-- DSCSA trading-partner infrastructure;
-- relevant product-identifier verification services;
-- EMVS/NMVS;
-- Indian regulatory systems; and
+- DSCSA trading-partner infrastructure.
+- relevant product-identifier verification services.
+- EMVS/NMVS.
+- Indian regulatory systems and
 - other authorized partner networks.
 
 ---
@@ -865,18 +864,18 @@ Distributed-ledger approaches to pharmaceutical traceability have been
 investigated in peer-reviewed research [12].
 
 Such approaches can provide architectural patterns involving shared
-transaction histories, cryptographic integrity, smart contracts, and
+transaction histories, cryptographic integrity, smart contracts and
 multi-party verification.
 
 They also introduce trade-offs:
 
-- additional infrastructure;
-- consensus or transaction-processing overhead;
-- key management;
-- privacy considerations;
-- governance complexity;
-- integration with authoritative systems;
-- data-correction mechanisms; and
+- additional infrastructure.
+- consensus or transaction-processing overhead.
+- key management.
+- privacy considerations.
+- governance complexity.
+- integration with authoritative systems.
+- data-correction mechanisms and
 - questions about which information should or should not be placed on a shared
   ledger.
 
@@ -892,18 +891,18 @@ governance model justify its additional complexity.
 ## 6.1 Integration Before Replacement
 
 A realistic architecture should assume that existing MES, ERP, WMS,
-serialization, regulatory, and partner systems will remain in operation.
+serialization, regulatory and partner systems will remain in operation.
 
 Integration boundaries should therefore be explicit.
 
 Potential patterns include:
 
-- APIs;
-- event brokers;
-- EPCIS repositories;
-- adapters;
-- integration gateways;
-- asynchronous queues; and
+- APIs.
+- event brokers.
+- EPCIS repositories.
+- adapters.
+- integration gateways.
+- asynchronous queues and
 - controlled batch exchange.
 
 The architecture should avoid requiring a synchronized global replacement of
@@ -916,10 +915,10 @@ Supply-chain event exchange must tolerate retries and duplicate delivery.
 Systems should establish stable event identities or equivalent mechanisms that
 allow receivers to distinguish:
 
-- a legitimate retry;
-- a duplicate event;
-- a correction;
-- a new event; and
+- a legitimate retry.
+- a duplicate event.
+- a correction.
+- a new event and
 - a conflicting assertion.
 
 ## 6.3 Time
@@ -928,11 +927,11 @@ Cross-organizational event histories depend on time.
 
 Implementations should consider:
 
-- timestamp precision;
-- time zones;
-- clock synchronization;
-- event occurrence time versus record time;
-- delayed/offline event submission; and
+- timestamp precision.
+- time zones.
+- clock synchronization.
+- event occurrence time versus record time.
+- delayed/offline event submission and
 - correction of inaccurate timestamps.
 
 ## 6.4 Identity and Key Management
@@ -941,13 +940,13 @@ Cryptographic verification creates operational dependencies of its own.
 
 Key and credential lifecycle management should address:
 
-- issuance;
-- storage;
-- rotation;
-- revocation;
-- compromise;
-- organizational changes;
-- delegated authority; and
+- issuance.
+- storage.
+- rotation.
+- revocation.
+- compromise.
+- organizational changes.
+- delegated authority and
 - recovery.
 
 Cryptography without lifecycle governance can create a different class of
@@ -959,15 +958,15 @@ Security should be applied at multiple layers.
 
 Relevant controls can include:
 
-- device authentication;
-- service authentication;
-- encryption in transit;
-- encryption at rest;
-- authorization;
-- least-privilege access;
-- signed messages where justified;
-- audit logging;
-- anomaly detection; and
+- device authentication.
+- service authentication.
+- encryption in transit.
+- encryption at rest.
+- authorization.
+- least-privilege access.
+- signed messages where justified.
+- audit logging.
+- anomaly detection and
 - segmentation between operational and enterprise environments.
 
 ## 6.6 Data Minimization
@@ -977,11 +976,11 @@ every field.
 
 Architecture should distinguish between:
 
-- data required for interoperability;
-- evidence required for verification;
-- commercially sensitive information;
-- personal information;
-- regulatory records; and
+- data required for interoperability.
+- evidence required for verification.
+- commercially sensitive information.
+- personal information.
+- regulatory records and
 - internal operational telemetry.
 
 Selective disclosure or restricted access may be preferable to universal
@@ -1000,12 +999,12 @@ microsecond-response requirements.
 
 Performance targets should be derived from:
 
-- packaging-line throughput;
-- event volumes;
-- number of trading partners;
-- verification workflow;
-- network conditions;
-- retention requirements; and
+- packaging-line throughput.
+- event volumes.
+- number of trading partners.
+- verification workflow.
+- network conditions.
+- retention requirements and
 - regulatory obligations.
 
 ## 6.8 Availability and Offline Operation
@@ -1014,12 +1013,12 @@ Physical logistics do not stop whenever a remote service becomes unavailable.
 
 Implementations should therefore consider:
 
-- local buffering;
-- retry queues;
-- offline capture;
-- reconciliation;
-- degraded operating modes;
-- duplicate suppression; and
+- local buffering.
+- retry queues.
+- offline capture.
+- reconciliation.
+- degraded operating modes.
+- duplicate suppression and
 - recovery after extended disconnection.
 
 ## 6.9 Computerized-System Validation
@@ -1037,19 +1036,19 @@ RA-001 does not represent GAMP 5 as a universal statutory mandate.
 
 Major cost drivers can include:
 
-- packaging-line integration;
-- serialization infrastructure;
-- partner onboarding;
-- EPCIS repositories;
-- integration middleware;
-- sensors and gateways;
-- network connectivity;
-- security infrastructure;
-- credential/key management;
-- validation;
-- monitoring;
-- support;
-- regulatory change; and
+- packaging-line integration.
+- serialization infrastructure.
+- partner onboarding.
+- EPCIS repositories.
+- integration middleware.
+- sensors and gateways.
+- network connectivity.
+- security infrastructure.
+- credential/key management.
+- validation.
+- monitoring.
+- support.
+- regulatory change and
 - data retention.
 
 A technically sophisticated trust mechanism that significantly increases
@@ -1072,7 +1071,7 @@ It cannot independently prove that the physical medicine associated with that
 assertion is genuine.
 
 Physical anti-tamper controls, regulated packaging, inspection, quality
-processes, enforcement, and other controls remain necessary.
+processes, enforcement and other controls remain necessary.
 
 ## 7.2 Garbage In, Verifiable Garbage Out
 
@@ -1088,11 +1087,11 @@ Input trust remains a separate problem.
 
 The proposed logical architecture does not replace:
 
-- FDA/DSCSA requirements;
-- European medicines-verification infrastructure;
-- CDSCO or other Indian regulatory systems;
-- DAVA;
-- national repositories; or
+- FDA/DSCSA requirements.
+- European medicines-verification infrastructure.
+- CDSCO or other Indian regulatory systems.
+- DAVA.
+- national repositories or
 - legally required organizational records.
 
 Any production implementation must be mapped to the applicable legal
@@ -1100,7 +1099,7 @@ environment.
 
 ## 7.4 Jurisdictional Variation
 
-The U.S., EU, and Indian examples in RA-001 do not represent every
+The U.S., EU and Indian examples in RA-001 do not represent every
 pharmaceutical market.
 
 Additional jurisdictions can impose materially different serialization,
@@ -1113,14 +1112,14 @@ digitally available.
 
 Relevant considerations include:
 
-- calibration;
-- device identity;
-- tamper resistance;
-- battery state;
-- placement;
-- sampling frequency;
-- connectivity;
-- gateway integrity; and
+- calibration.
+- device identity.
+- tamper resistance.
+- battery state.
+- placement.
+- sampling frequency.
+- connectivity.
+- gateway integrity and
 - chain of custody for the sensor itself.
 
 ## 7.6 Aggregation Is Not Permanently Static
@@ -1137,7 +1136,7 @@ RA-001 v0.4 is a research reference architecture.
 It has not yet been validated as a complete production implementation across
 multiple pharmaceutical trading partners.
 
-F02, F03, and F04 remain under technical development.
+F02, F03 and F04 remain under technical development.
 
 ---
 
@@ -1148,7 +1147,7 @@ predictions of universal industry adoption.
 
 ## 8.1 Richer EPCIS 2.0 Integration
 
-EPCIS 2.0 provides JSON/JSON-LD, REST-oriented interfaces, and sensor-data
+EPCIS 2.0 provides JSON/JSON-LD, REST-oriented interfaces and sensor-data
 capabilities [2].
 
 These capabilities can enable more developer-friendly event integration and
@@ -1156,7 +1155,7 @@ richer relationships between supply-chain events and environmental
 observations.
 
 Adoption will nevertheless depend on existing infrastructure, partner
-readiness, regulation, cost, and migration strategy.
+readiness, regulation, cost and migration strategy.
 
 ## 8.2 Verifiable Organizational Identity
 
@@ -1167,12 +1166,12 @@ Credential-based approaches may provide additional mechanisms for representing
 organizational identity, authorization, or other machine-verifiable claims.
 
 Whether such credentials are appropriate for a pharmaceutical workflow depends
-on governance, trust anchors, revocation, interoperability, and regulatory
+on governance, trust anchors, revocation, interoperability and regulatory
 acceptance.
 
 ## 8.3 Event and Sensor Correlation
 
-Increasing correlation between product identity, logistics events, and
+Increasing correlation between product identity, logistics events and
 environmental observations could improve investigation of cold-chain and
 handling exceptions.
 
@@ -1186,11 +1185,11 @@ Not every traceability event needs a distributed ledger.
 Future architectures may instead combine different trust mechanisms according
 to boundary:
 
-- authenticated APIs within controlled environments;
-- signed messages between organizations;
-- verifiable credentials for organizational claims;
-- append-only evidence stores for audit;
-- regulatory repositories for legally authoritative state; and
+- authenticated APIs within controlled environments.
+- signed messages between organizations.
+- verifiable credentials for organizational claims.
+- append-only evidence stores for audit.
+- regulatory repositories for legally authoritative state and
 - shared/distributed ledgers only where multi-party governance warrants them.
 
 ## 8.5 Stronger Physical-Digital Binding
@@ -1200,12 +1199,12 @@ between a physical object and its digital identity.
 
 Possible approaches include combinations of:
 
-- tamper-evident packaging;
-- secure identifiers;
-- RFID/NFC;
-- device-assisted verification;
-- optical or material signatures;
-- sensor evidence; and
+- tamper-evident packaging.
+- secure identifiers.
+- RFID/NFC.
+- device-assisted verification.
+- optical or material signatures.
+- sensor evidence and
 - cryptographic mechanisms.
 
 No single mechanism currently removes the need for layered physical and digital
@@ -1216,20 +1215,20 @@ controls.
 # 9. Key Takeaways
 
 - **Pharmaceutical traceability is a multi-system problem.** Product identity,
-  enterprise records, logistics events, regulatory verification, and physical
+  enterprise records, logistics events, regulatory verification and physical
   custody are controlled by different systems and organizations.
 
 - **Serialization is foundational but not equivalent to end-to-end trust.**
-  A serialized identifier establishes machine-readable identity; additional
-  evidence is required to reconstruct custody, handling, and verification.
+  A serialized identifier establishes machine-readable identity, additional
+  evidence is required to reconstruct custody, handling and verification.
 
 - **Existing standards should be treated as architecture foundations, not
-  obstacles.** GS1 identifiers, EPCIS/CBV, and jurisdiction-specific regulatory
+  obstacles.** GS1 identifiers, EPCIS/CBV and jurisdiction-specific regulatory
   infrastructure already solve important parts of the problem.
 
 - **Interoperability is primarily an organizational-boundary problem.** Open and
   widely adopted standards can reduce dependence on proprietary data models,
-  but governance, authorization, semantics, and evidence quality remain
+  but governance, authorization, semantics and evidence quality remain
   necessary.
 
 - **IoT telemetry becomes more valuable when correlated with identity and
@@ -1261,7 +1260,7 @@ enhanced drug-distribution-security requirements for eligible small dispensers
 through 27 November 2026.
 
 [2] GS1, *EPCIS Standard and Core Business Vocabulary (CBV), Version 2.0*,
-including EPCIS 2.0 representation, REST-interface, and sensor-data
+including EPCIS 2.0 representation, REST-interface and sensor-data
 capabilities.
 
 [3] European Commission, *Commission Delegated Regulation (EU) 2016/161 of
@@ -1276,7 +1275,7 @@ human use.*
 Authentication and Verification Application (DAVA) implementation materials.
 
 [6] World Health Organization, pharmaceutical supply-chain and product-quality
-guidance relevant to distribution, traceability, and falsified medical
+guidance relevant to distribution, traceability and falsified medical
 products.
 
 [7] W3C, *Decentralized Identifiers (DIDs) v1.0*, W3C Recommendation, 2022.
@@ -1288,7 +1287,7 @@ products.
 industry guidance relevant to product-identifier verification workflows.
 
 [10] GS1, *General Specifications*, provisions relevant to Global Trade Item
-Numbers (GTIN), Serial Shipping Container Codes (SSCC), GS1 DataMatrix, and
+Numbers (GTIN), Serial Shipping Container Codes (SSCC), GS1 DataMatrix and
 logistics-unit identification.
 
 [11] OECD and European Union Intellectual Property Office (EUIPO), *Trends in
@@ -1317,7 +1316,7 @@ Volume 1, WCO, Brussels, 2020.
 [17] GS1 US, DSCSA implementation and pharmaceutical traceability guidance.
 
 [18] European medicines-verification implementation materials concerning the
-European Medicines Verification System (EMVS), European Hub, and National
+European Medicines Verification System (EMVS), European Hub and National
 Medicines Verification Systems (NMVS).
 
 ---
@@ -1327,18 +1326,18 @@ Medicines Verification Systems (NMVS).
 RA-001 is an independent technical research publication developed by
 **KryoNex Research**.
 
-Standards, regulations, product names, organization names, and technical
+Standards, regulations, product names, organization names and technical
 specifications referenced in this publication remain the property of their
 respective organizations.
 
 The diagrams, architectural synthesis, classifications, explanatory models,
 and original analysis presented by KryoNex Research represent the authors'
 interpretation of publicly documented standards, regulatory requirements,
-technical literature, and systems-engineering considerations.
+technical literature and systems-engineering considerations.
 
 Reference architectures are provided for informational and research purposes.
 Implementation requirements vary by organization, jurisdiction, product class,
-risk profile, and regulatory environment.
+risk profile and regulatory environment.
 
 This publication does not constitute legal, regulatory, medical, quality, or
 compliance advice.
