@@ -1,7 +1,17 @@
-# RA-001 Source Tracking
+# RA-001 Research Sources
 
-Log every source considered here as research happens, even ones we decide
-not to cite, so we don't re-search the same ground later.
+This directory records the external evidence used in the development
+and technical review of RA-001.
 
-| # | Organization | Title | URL | Status | Notes |
-|---|---|---|---|---|---|
+Sources are prioritized in the following order:
+
+1. Primary regulatory and government publications
+2. Formal standards and specifications
+3. Standards-body implementation guidance
+4. Peer-reviewed academic literature
+5. Established industry technical material
+
+The presence of a source in this directory does not imply endorsement
+of KryoNex Research or of the RA-001 architecture.
+
+See `evidence-register.md` for claim-level evidence mapping.
