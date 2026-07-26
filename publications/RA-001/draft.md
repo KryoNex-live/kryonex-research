@@ -7,7 +7,7 @@ author_role: "KryoNex Research & Engineering Team"
 status: "working-draft"
 document_version: "0.4"
 publish_date: ""
-last_updated: "2026-07-24"
+last_updated: "2026-07-26"
 tags:
   - pharmaceutical-traceability
   - supply-chain
@@ -26,7 +26,7 @@ tags:
 Prepared by **A. S. Tomar — KryoNex Research & Engineering Team**
 
 **Status:** Under Technical Review  
-**Last Updated:** 24 July 2026
+**Last Updated:** 26 July 2026
 
 > **Research status**
 >
@@ -212,7 +212,7 @@ This distinction is fundamental to RA-001.
 
 Version 0.4 does not attempt to:
 
-- replace DSCSA, EMVS/NMVS, CDSCO, DAVA, or other regulatory infrastructure.
+- replace DSCSA, EMVS/NMVS, CDSCO, Indian domestic and export regulatory, or other regulatory infrastructure.
 - define a new pharmaceutical serialization standard.
 - prescribe a specific blockchain or distributed-ledger platform.
 - prescribe a particular IoT vendor or device.
@@ -452,25 +452,35 @@ visibility.
 
 ### 3.5.3 India — Domestic and Export Traceability
 
-India must also be treated as more than one serialization context.
+### India
 
-Export-oriented pharmaceutical traceability has historically involved
-requirements and infrastructure associated with the Drug Authentication and
-Verification Application (DAVA) and related export serialization processes [5].
+India's pharmaceutical traceability environment should be interpreted with
+separate domestic and export-policy contexts.
 
-Domestic requirements are distinct.
+For the domestic market, Schedule H2 of the Drugs Rules establishes
+barcode/QR-related identification requirements for applicable formulations.
+On 22 June 2026, the Ministry of Health and Family Welfare notified
+G.S.R. 506(E), expanding Schedule H2 to additional medicine categories,
+including all vaccines, all antimicrobials, specified narcotic drugs and
+psychotropic substances, and all anticancer drugs.
 
-In June 2026, Indian regulatory changes expanded Schedule H2-related barcode/QR
-requirements for specified categories of medicines under the Drugs Rules [4].
+The June 2026 notification date should not be interpreted as meaning that all
+expanded requirements were already operative at that date. The applicable
+commencement dates must be considered separately when evaluating the
+current regulatory state.
 
-The distinction between domestic requirements and export-oriented DAVA
-processes should be preserved in architecture diagrams and implementation
-analysis. Treating the two as one system can lead to incorrect assumptions
-about data flow and regulatory responsibility.
+India's pharmaceutical-export traceability environment has also evolved.
+Historically, DGFT Track and Trace procedures and Indian domestic and export regulatory -related
+mechanisms were used for export serialization and reporting. However, DGFT
+Public Notice No. 44/2024-25, dated 31 January 2025, withdrew Para 2.76 of
+the Handbook of Procedures 2023 concerning the Track and Trace procedure
+for exports of drug formulations and redirected implementation of
+authentication for exported drug formulations toward the Ministry of Health
+& Family Welfare under the Drugs Rules framework.
 
-For pharmaceutical manufacturing regions such as Gujarat, these requirements
-also demonstrate why a traceability architecture may need to support multiple
-regulatory contexts from the same manufacturing ecosystem.
+Accordingly, RA-001 treats Indian domestic and export regulatory environments as relevant historical implementation
+context rather than as the unchanged current regulatory anchor for Indian
+pharmaceutical exports.
 
 ---
 
@@ -1094,19 +1104,30 @@ data more reliably.
 
 Input trust remains a separate problem.
 
-## 7.3 Regulatory Systems Remain Authoritative
+## 7.3 Regulatory and Operational Systems Remain Authoritative
 
-The proposed logical architecture does not replace:
+The proposed logical assurance architecture does not replace applicable
+regulatory, verification, trading-partner, or enterprise systems.
 
-- FDA/DSCSA requirements.
-- European medicines-verification infrastructure.
-- CDSCO or other Indian regulatory systems.
-- DAVA.
-- national repositories or
-- legally required organizational records.
+Depending on jurisdiction and workflow, authoritative environments can include:
 
-Any production implementation must be mapped to the applicable legal
-environment.
+- FDA/DSCSA regulatory requirements and associated trading-partner systems;
+- European medicines-verification infrastructure;
+- CDSCO and other applicable Indian regulatory mechanisms;
+- jurisdiction-specific national or regional repositories;
+- legally required organizational records; and
+- authoritative enterprise systems operated by supply-chain participants.
+
+Historical infrastructure should not automatically be treated as current
+regulatory authority when the governing framework changes. For example,
+DAVA/iVEDA remains relevant to the historical evolution of Indian
+pharmaceutical-export traceability, while the applicable current regulatory
+framework must be evaluated according to subsequent Government of India
+policy and Drugs Rules requirements.
+
+Any production implementation of RA-001 must therefore be mapped to the
+applicable legal and operational environment rather than assuming that one
+regulatory topology applies globally.
 
 ## 7.4 Jurisdictional Variation
 
@@ -1172,14 +1193,27 @@ readiness, regulation, cost and migration strategy.
 
 ## 8.2 Verifiable Organizational Identity
 
-W3C Verifiable Credentials Data Model 2.0 became a W3C Recommendation in May 2025 [8]..
+W3C Verifiable Credentials Data Model 2.0 became a W3C Recommendation in
+May 2025 [8]. W3C Decentralized Identifiers (DIDs) v1.0 provides an
+additional standardized identity primitive relevant to decentralized
+identifier architectures [13].
 
-Credential-based approaches may provide additional mechanisms for representing
-organizational identity, authorization, or other machine-verifiable claims.
+Within pharmaceutical interoperability, industry initiatives such as the Open
+Credentialing Initiative have developed credential-based approaches for
+machine-verifiable organizational identity and Authorized Trading Partner
+status [9].
 
-Whether such credentials are appropriate for a pharmaceutical workflow depends
-on governance, trust anchors, revocation, interoperability and regulatory
-acceptance.
+These mechanisms can provide evidence concerning identity, qualification,
+licensure, authorization status, or other organizational assertions.
+
+A valid credential should not, however, be interpreted as automatically
+authorizing a particular transaction. The receiving party must still evaluate
+the issuer, credential status, subject binding, applicable policy, regulatory
+context, and the authoritative evidence underlying the assertion.
+
+Whether credential-based mechanisms are appropriate for a pharmaceutical
+workflow therefore depends on governance, trust anchors, lifecycle management,
+interoperability, policy, and regulatory acceptance.
 
 ## 8.3 Event and Sensor Correlation
 
@@ -1254,7 +1288,17 @@ controls.
 - **Digital verification does not replace physical controls.** A trustworthy
   pharmaceutical supply chain requires both physical and digital evidence.
 
- - **The proposed architecture strengthens assurance at organizational boundaries without requiring replacement of   existing authoritative systems.** Product identity, event integrity, organizational authority, and observation correlation are treated as separate assurance problems, with implementation mechanisms selected according to the boundary and use case rather than prescribed universally.** F01 establishes the physical domain, F02 maps the
+- **The proposed architecture strengthens assurance at organizational and
+  system boundaries without requiring replacement of existing authoritative
+  systems.** Product Identity, Event Integrity, Organizational Authority, and
+  Observation Correlation are treated as distinct assurance dimensions.
+  F01 establishes the physical domain, F02 maps the current traceability
+  landscape, F03 identifies assurance boundaries, and F04 synthesizes those
+  findings into a vendor-neutral logical assurance architecture. Candidate
+  mechanisms are selected according to the boundary and use case rather than
+  prescribed universally.
+
+- ** F01 establishes the physical domain, F02 maps the
   current systems landscape, and F03 identifies the assurance boundaries.
   F04 will evaluate which mechanisms, if any, can strengthen assurance across
   those boundaries without unnecessarily replacing existing authoritative
@@ -1265,73 +1309,66 @@ controls.
 # 10. References
 
 > **Reference note:** Regulatory and standards references are maintained with
-> claim-level verification in `sources/evidence-register.md`. Bibliographic
-> details remain subject to final verification before RA-001 v1.0 publication.
+> claim-level verification in `sources/evidence-register.md`. RA-001 v0.4
+> remains under technical review; time-sensitive regulatory claims will be
+> rechecked before publication.
 
 [1] U.S. Food and Drug Administration (FDA), *Drug Supply Chain Security Act
-(DSCSA)* implementation materials, including FDA exemptions from specified
-enhanced drug-distribution-security requirements for eligible small dispensers
-through 27 November 2026.
+(DSCSA)* implementation materials, including applicable FDA waivers,
+exemptions, and stabilization-period guidance.
 
-[2] GS1, *EPCIS Standard and Core Business Vocabulary (CBV), Version 2.0*,
-including EPCIS 2.0 representation, REST-interface and sensor-data
-capabilities.
+[2] GS1, *EPCIS Standard, Release 2.0* and *Core Business Vocabulary (CBV),
+Release 2.0*.
 
 [3] European Commission, *Commission Delegated Regulation (EU) 2016/161 of
-2 October 2015 supplementing Directive 2001/83/EC by laying down detailed rules
-for the safety features appearing on the packaging of medicinal products for
-human use.*
+2 October 2015 supplementing Directive 2001/83/EC by laying down detailed
+rules for the safety features appearing on the packaging of medicinal
+products for human use*.
 
-[4] Government of India, Ministry of Health and Family Welfare / CDSCO,
-*G.S.R. 506(E), Drugs Rules amendment concerning Schedule H2*, 22 June 2026.
+[4] European Medicines Verification Organisation (EMVO), *The European
+Medicines Verification System Explained*, EMVO-02343, Version 1.0,
+16 June 2023.
 
-[5] Government of India, pharmaceutical export traceability and Drug
-Authentication and Verification Application (DAVA) implementation materials.
+[5] Government of India, Ministry of Health and Family Welfare,
+*G.S.R. 506(E)*, 22 June 2026, amendment concerning Schedule H2 of the
+Drugs Rules.
 
-[6] World Health Organization, pharmaceutical supply-chain and product-quality
-guidance relevant to distribution, traceability and falsified medical
-products.
+[6] Government of India, Directorate General of Foreign Trade,
+*Public Notice No. 44/2024-25*, 31 January 2025, withdrawal of Para 2.76
+of the Handbook of Procedures 2023 concerning Track and Trace for exports
+of drug formulations.
 
-[7] W3C, *Decentralized Identifiers (DIDs) v1.0*, W3C Recommendation, 2022.
+[7] GS1, *GS1 General Specifications*, including standards for product and
+logistics-unit identification and Serial Shipping Container Code (SSCC).
 
-[8] W3C, *Verifiable Credentials Data Model v2.0*, W3C Recommendation,
-15 May 2025.
+[8] World Wide Web Consortium (W3C), *Verifiable Credentials Data Model
+v2.0*, W3C Recommendation, 15 May 2025.
 
-[9] GS1 US, Verification Router Service (VRS) implementation materials and
-industry guidance relevant to product-identifier verification workflows.
+[9] Open Credentialing Initiative (OCI), *DSCSA Interoperability Profile
+v3.4.0*, together with applicable credential issuer, wallet, and conformance
+materials.
 
-[10] GS1, *General Specifications*, provisions relevant to Global Trade Item
-Numbers (GTIN), Serial Shipping Container Codes (SSCC), GS1 DataMatrix and
-logistics-unit identification.
+[10] GS1 US, Verification Router Service and Lightweight Messaging
+implementation materials for pharmaceutical product-identifier verification
+workflows.
 
-[11] OECD and European Union Intellectual Property Office (EUIPO), *Trends in
-Trade in Counterfeit and Pirated Goods*, Illicit Trade, OECD Publishing,
-Paris/EUIPO, Alicante, 2019.
+[11] OECD/EUIPO, *Trade in Counterfeit Pharmaceutical Products*, Illicit
+Trade, OECD Publishing, Paris, 2020.
 
-[12] A. Musamih, K. Salah, R. Jayaraman, J. Arshad, M. Debe, Y. Al-Hammadi,
-and S. Ellahham, "A Blockchain-Based Approach for Drug Traceability in
-Healthcare Supply Chain," *IEEE Access*, vol. 9, pp. 9728-9743, 2021.
-doi:10.1109/ACCESS.2021.3049920.
+[12] Ahmad Musamih, Khaled Salah, et al., “A Blockchain-Based Approach for
+Drug Traceability in Healthcare Supply Chain,” *IEEE Access*, Vol. 9,
+pp. 9728–9743, 2021. DOI: 10.1109/ACCESS.2021.3049920.
 
-[13] ISO/IEC 15459 series, *Information technology — Automatic identification
-and data capture techniques — Unique identification.*
+[13] World Wide Web Consortium (W3C), *Decentralized Identifiers (DIDs)
+v1.0*, W3C Recommendation, 19 July 2022.
 
-[14] Open Credentialing Initiative (OCI), technical materials concerning
-credential-based Authorized Trading Partner identity and verification
-architectures.
+[14] International Society for Pharmaceutical Engineering (ISPE),
+*GAMP 5: A Risk-Based Approach to Compliant GxP Computerized Systems*,
+Second Edition, 2022.
 
-[15] International Society for Pharmaceutical Engineering (ISPE), *GAMP 5:
-A Risk-Based Approach to Compliant GxP Computerized Systems*, Second Edition,
-2022.
-
-[16] World Customs Organization (WCO), *Customs Risk Management Compendium*,
-Volume 1, WCO, Brussels, 2020.
-
-[17] GS1 US, DSCSA implementation and pharmaceutical traceability guidance.
-
-[18] European medicines-verification implementation materials concerning the
-European Medicines Verification System (EMVS), European Hub and National
-Medicines Verification Systems (NMVS).
+[15] Directive 2011/62/EU of the European Parliament and of the Council of
+8 June 2011 amending Directive 2001/83/EC as regards the prevention of the
+entry into the legal supply chain of falsified medicinal products.
 
 ---
 
