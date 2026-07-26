@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+<title>RA-001 Figure 4 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability</title>
+<desc>Vendor-neutral logical assurance architecture preserving authoritative operational and regulatory systems across six logical layers, four assurance dimensions, cross-cutting evidence protection and trust lifecycle governance, and conditional mechanism selection.</desc>
+<rect width="1600" height="1120" fill="#FFFFFF"/>
+<text x="190" y="175" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 190 175)">A. S. Tomar</text>
+<text x="560" y="175" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 560 175)">A. S. Tomar</text>
+<text x="930" y="175" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 930 175)">A. S. Tomar</text>
+<text x="1300" y="175" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 1300 175)">A. S. Tomar</text>
+<text x="190" y="430" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 190 430)">A. S. Tomar</text>
+<text x="560" y="430" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 560 430)">A. S. Tomar</text>
+<text x="930" y="430" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 930 430)">A. S. Tomar</text>
+<text x="1300" y="430" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 1300 430)">A. S. Tomar</text>
+<text x="190" y="685" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 190 685)">A. S. Tomar</text>
+<text x="560" y="685" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 560 685)">A. S. Tomar</text>
+<text x="930" y="685" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 930 685)">A. S. Tomar</text>
+<text x="1300" y="685" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 1300 685)">A. S. Tomar</text>
+<text x="190" y="930" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 190 930)">A. S. Tomar</text>
+<text x="560" y="930" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 560 930)">A. S. Tomar</text>
+<text x="930" y="930" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 930 930)">A. S. Tomar</text>
+<text x="1300" y="930" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.05" transform="rotate(-32 1300 930)">A. S. Tomar</text>
+<text x="370" y="300" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 370 300)">A. S. Tomar</text>
+<text x="800" y="300" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 800 300)">A. S. Tomar</text>
+<text x="1230" y="300" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 1230 300)">A. S. Tomar</text>
+<text x="370" y="600" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 370 600)">A. S. Tomar</text>
+<text x="800" y="600" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 800 600)">A. S. Tomar</text>
+<text x="1230" y="600" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 1230 600)">A. S. Tomar</text>
+<text x="370" y="850" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 370 850)">A. S. Tomar</text>
+<text x="800" y="850" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 800 850)">A. S. Tomar</text>
+<text x="1230" y="850" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#94A3B8" text-anchor="middle" opacity="0.03" transform="rotate(32 1230 850)">A. S. Tomar</text>
+<rect x="18" y="14" width="210" height="44" rx="0" fill="#0B2B66" stroke="#0B2B66" stroke-width="0"/>
+<text x="123" y="43" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="white" text-anchor="middle" opacity="1">RA-001 • FIGURE 4</text>
+<text x="825" y="36" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#0B2B66" text-anchor="middle" opacity="1">LOGICAL ASSURANCE ARCHITECTURE FOR</text>
+<text x="825" y="67" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#0B2B66" text-anchor="middle" opacity="1">CROSS-ORGANIZATIONAL PHARMACEUTICAL TRACEABILITY</text>
+<text x="825" y="91" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" fill="#0B2B66" text-anchor="middle" opacity="1" font-style="italic">Vendor-neutral logical model — existing authoritative systems remain authoritative</text>
+<rect x="28" y="112" width="1544" height="50" rx="8" fill="#F4F8FF" stroke="#0B2B66" stroke-width="1.4"/>
+<text x="800" y="134" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#0B2B66" text-anchor="middle" opacity="1">ARCHITECTURAL PRINCIPLE</text>
+<text x="800" y="153" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#0B2B66" text-anchor="middle" opacity="1">Boundary assurance overlays strengthen cross-organizational evidence without requiring replacement of existing systems of record.</text>
+<rect x="155" y="185" width="1290" height="115" rx="10" fill="#FFF7F7" stroke="#A83232" stroke-width="1.5"/>
+<circle cx="190" cy="216" r="20" fill="#A83232"/>
+<text x="190" y="222" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle" opacity="1">6</text>
+<text x="225" y="214" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#A83232" text-anchor="start" opacity="1">REGULATORY &amp; PARTNER ECOSYSTEMS</text>
+<text x="225" y="238" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Regulatory / verification environments</text>
+<text x="225" y="255" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Trading-partner registries and directories</text>
+<text x="225" y="272" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Jurisdiction-specific external services</text>
+<rect x="155" y="314" width="1290" height="155" rx="10" fill="#FAF7FF" stroke="#5433A6" stroke-width="1.5"/>
+<circle cx="190" cy="345" r="20" fill="#5433A6"/>
+<text x="190" y="351" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle" opacity="1">5</text>
+<text x="225" y="343" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#5433A6" text-anchor="start" opacity="1">BOUNDARY ASSURANCE CAPABILITIES</text>
+<rect x="225" y="367" width="275" height="78" rx="7" fill="#FFFFFF" stroke="#5433A6" stroke-width="1"/>
+<text x="237" y="389" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="700" fill="#5433A6" text-anchor="start" opacity="1">PRODUCT IDENTITY</text>
+<text x="237" y="408" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">Confidence that the physical asset</text>
+<text x="237" y="420" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">corresponds to the asserted</text>
+<text x="237" y="432" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">identity.</text>
+<rect x="512" y="367" width="275" height="78" rx="7" fill="#FFFFFF" stroke="#5433A6" stroke-width="1"/>
+<text x="524" y="389" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="700" fill="#5433A6" text-anchor="start" opacity="1">EVENT INTEGRITY</text>
+<text x="524" y="408" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">Evidence that digital event</text>
+<text x="524" y="420" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">representations remain attributable</text>
+<text x="524" y="432" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">and detectably unchanged.</text>
+<rect x="799" y="367" width="275" height="78" rx="7" fill="#FFFFFF" stroke="#5433A6" stroke-width="1"/>
+<text x="811" y="389" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="700" fill="#5433A6" text-anchor="start" opacity="1">ORGANIZATIONAL AUTHORITY</text>
+<text x="811" y="408" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">Evidence concerning participant</text>
+<text x="811" y="420" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">identity, status and applicable</text>
+<text x="811" y="432" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">authorization context.</text>
+<rect x="1086" y="367" width="275" height="78" rx="7" fill="#FFFFFF" stroke="#5433A6" stroke-width="1"/>
+<text x="1098" y="389" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="700" fill="#5433A6" text-anchor="start" opacity="1">OBSERVATION CORRELATION</text>
+<text x="1098" y="408" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">Association of observations with the</text>
+<text x="1098" y="420" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">relevant asset, event, place and</text>
+<text x="1098" y="432" font-family="Arial,Helvetica,sans-serif" font-size="9.2" font-weight="400" fill="#475569" text-anchor="start" opacity="1">time.</text>
+<rect x="155" y="483" width="1290" height="120" rx="10" fill="#F3FAFA" stroke="#0F7285" stroke-width="1.5"/>
+<circle cx="190" cy="514" r="20" fill="#0F7285"/>
+<text x="190" y="520" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle" opacity="1">4</text>
+<text x="225" y="512" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#0F7285" text-anchor="start" opacity="1">TRACEABILITY SEMANTICS &amp; EXCHANGE</text>
+<text x="225" y="536" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• GS1 EPCIS / CBV where applicable</text>
+<text x="225" y="553" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• APIs • secure messaging • managed transfer</text>
+<text x="225" y="570" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Federated verification / routing patterns</text>
+<rect x="155" y="617" width="1290" height="125" rx="10" fill="#F7FAF4" stroke="#3F7A2A" stroke-width="1.5"/>
+<circle cx="190" cy="648" r="20" fill="#3F7A2A"/>
+<text x="190" y="654" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle" opacity="1">3</text>
+<text x="225" y="646" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#3F7A2A" text-anchor="start" opacity="1">AUTHORITATIVE OPERATIONAL SYSTEMS</text>
+<text x="225" y="670" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• MES • Serialization Repository • ERP</text>
+<text x="225" y="687" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• WMS • TMS • Dispensing Systems</text>
+<text x="225" y="704" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Partner and jurisdiction-specific systems of record</text>
+<rect x="155" y="756" width="1290" height="115" rx="10" fill="#F4F8FF" stroke="#2457B2" stroke-width="1.5"/>
+<circle cx="190" cy="787" r="20" fill="#2457B2"/>
+<text x="190" y="793" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle" opacity="1">2</text>
+<text x="225" y="785" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#2457B2" text-anchor="start" opacity="1">IDENTIFICATION &amp; OBSERVATION</text>
+<text x="225" y="809" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• GTIN • Serial • Lot / Batch • Expiry • SSCC</text>
+<text x="225" y="826" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• DataMatrix / applicable data carriers</text>
+<text x="225" y="843" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Sensor observations and device context</text>
+<rect x="155" y="885" width="1290" height="115" rx="10" fill="#FFF9F3" stroke="#B96716" stroke-width="1.5"/>
+<circle cx="190" cy="916" r="20" fill="#B96716"/>
+<text x="190" y="922" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle" opacity="1">1</text>
+<text x="225" y="914" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#B96716" text-anchor="start" opacity="1">PHYSICAL PHARMACEUTICAL SUPPLY CHAIN</text>
+<text x="225" y="938" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Manufacturing / Packaging → Logistics → Distribution / Wholesale → Dispensing → Patient</text>
+<text x="225" y="955" font-family="Arial,Helvetica,sans-serif" font-size="10.8" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Physical possession, custody, condition and handover context</text>
+<rect x="28" y="185" width="105" height="754" rx="10" fill="#F8FAFC" stroke="#0B2B66" stroke-width="1.4"/>
+<text x="80" y="560" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#0B2B66" text-anchor="middle" opacity="1" transform="rotate(-90 80 560)">EVIDENCE PROTECTION</text>
+<text x="101" y="560" font-family="Arial,Helvetica,sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="middle" opacity="1" transform="rotate(-90 101 560)">Integrity • signatures • hashes • provenance • protected evidence</text>
+<rect x="1467" y="185" width="105" height="754" rx="10" fill="#F8FAFC" stroke="#0B2B66" stroke-width="1.4"/>
+<text x="1519" y="560" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#0B2B66" text-anchor="middle" opacity="1" transform="rotate(90 1519 560)">TRUST &amp; LIFECYCLE GOVERNANCE</text>
+<text x="1498" y="560" font-family="Arial,Helvetica,sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="middle" opacity="1" transform="rotate(90 1498 560)">Trust anchors • policy • credential status • key lifecycle • audit</text>
+<rect x="155" y="954" width="825" height="94" rx="8" fill="#F8FAFC" stroke="#0B2B66" stroke-width="1.3"/>
+<text x="178" y="978" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#0B2B66" text-anchor="start" opacity="1">ASSURANCE OUTCOMES</text>
+<text x="178" y="1000" font-family="Arial,Helvetica,sans-serif" font-size="10.2" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Verified / sufficiently supported for the applicable workflow</text>
+<text x="178" y="1016" font-family="Arial,Helvetica,sans-serif" font-size="10.2" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Exception / reconciliation / additional evidence required</text>
+<text x="178" y="1032" font-family="Arial,Helvetica,sans-serif" font-size="10.2" font-weight="400" fill="#111827" text-anchor="start" opacity="1">• Quarantine, investigation, escalation or other applicable operational</text>
+<text x="178" y="1046" font-family="Arial,Helvetica,sans-serif" font-size="10.2" font-weight="400" fill="#111827" text-anchor="start" opacity="1">  response</text>
+<rect x="995" y="954" width="450" height="94" rx="8" fill="#FAF7FF" stroke="#5433A6" stroke-width="1.3"/>
+<text x="1018" y="978" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#5433A6" text-anchor="start" opacity="1">CONDITIONAL MECHANISM SELECTION</text>
+<text x="1018" y="1000" font-family="Arial,Helvetica,sans-serif" font-size="9.6" font-weight="400" fill="#475569" text-anchor="start" opacity="1">PKI, signatures, credentials, trusted directories, append-only</text>
+<text x="1018" y="1013" font-family="Arial,Helvetica,sans-serif" font-size="9.6" font-weight="400" fill="#475569" text-anchor="start" opacity="1">evidence, federated verification and shared-ledger mechanisms are</text>
+<text x="1018" y="1026" font-family="Arial,Helvetica,sans-serif" font-size="9.6" font-weight="400" fill="#475569" text-anchor="start" opacity="1">candidates selected according to the assurance boundary and use</text>
+<text x="1018" y="1039" font-family="Arial,Helvetica,sans-serif" font-size="9.6" font-weight="400" fill="#475569" text-anchor="start" opacity="1">case — not mandatory layers.</text>
+<rect x="155" y="1060" width="1290" height="30" rx="4" fill="#FFFFFF" stroke="#0B2B66" stroke-width="1"/>
+<text x="800" y="1080" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#0B2B66" text-anchor="middle" opacity="1">Event integrity ≠ physical truth   •   Credential verification ≠ transaction authorization   •   Device identity ≠ calibration   •   Immutable history ≠ correctness</text>
+<text x="20" y="1102" font-family="Arial,Helvetica,sans-serif" font-size="8.8" font-weight="400" fill="#0B2B66" text-anchor="start" opacity="1">Source: KryoNex Research synthesis informed by GS1 EPCIS/CBV, U.S. FDA DSCSA, EU medicines-verification requirements, Indian pharmaceutical traceability frameworks, and evaluated assurance mechanisms.</text>
+<rect x="0" y="1105" width="1600" height="15" fill="#08275D"/>
+<text x="800" y="1117" font-family="Arial,Helvetica,sans-serif" font-size="9.7" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="1">© 2026 A. S. Tomar (KryoNex Research)  |  RA-001-F04  |  Logical Assurance Architecture  |  kryonex.live  |  support@kryonex.live</text>
+</svg>
