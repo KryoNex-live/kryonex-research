@@ -10,15 +10,32 @@
 - [x] Develop F01 — Contemporary Pharmaceutical Supply Chain.
 - [x] Develop F02 — Current Pharmaceutical Traceability Landscape.
 - [x] Develop F03 — Trust & Visibility Boundaries.
-- [ ] Complete F04 — Proposed Logical Reference Architecture.
+- [x] Complete F04 — Proposed Logical Reference Architecture.
 - [ ] Validate final terminology against GS1 EPCIS/CBV 2.0.
 - [ ] Complete final regulatory review for US, EU, and India.
 - [ ] Perform public-disclosure/IP boundary review.
 - [ ] Complete final technical review of F01–F04 as one architecture.
+- [ ] Verify claim-to-evidence consistency across draft.md and sources/evidence-register.md.
+- [ ] Verify cross-figure terminology and narrative consistency across F01–F04.
 - [ ] Complete final editorial review.
 - [ ] Freeze publication assets and figure versions.
 
 ## Release Gate
 
-RA-001 must not be marked v1.0 or Published until all open
-technical-review items affecting substantive claims are resolved.
+RA-001 must not be marked **v1.0**, **Published**, or released for search
+indexing until all open technical-review items affecting substantive claims
+have been resolved.
+
+Completion of F01–F04 establishes architectural completeness for the v0.4
+working draft; it does not constitute regulatory validation, publication
+approval, or production validation.
+
+Before release, the publication must pass:
+
+1. primary-source and bibliography verification;
+2. regulatory and standards terminology review;
+3. claim-to-evidence consistency review;
+4. F01–F04 architecture consistency review;
+5. public-disclosure/IP boundary review;
+6. final technical and editorial review; and
+7. publication-asset and metadata freeze.
