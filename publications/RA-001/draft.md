@@ -800,113 +800,52 @@ supported by evidence to justify architectural mechanisms in F04.
 
 ---
 
-## 5.4 F04 — Proposed Logical Reference Architecture
+### 5.4 Proposed Logical Assurance Architecture
 
-**Status: Under development.**
+Figure 4 synthesizes the findings from Figures 1–3 into a vendor-neutral logical assurance architecture for cross-organizational pharmaceutical traceability.
 
-The current logical direction is:
+The architecture does not replace existing operational, trading-partner, or regulatory systems. Instead, it preserves authoritative systems of record while introducing logical assurance capabilities at boundaries where identity, traceability events, organizational authority, or environmental observations move between independently governed systems.
 
-    Regulatory / Partner Ecosystems
-                  ↕
-       Trust & Verification Layer
-                  ↕
-        Event Interoperability
-                  ↕
-      Enterprise & Edge Systems
-                  ↕
-     Identification & Sensing
-                  ↕
-          Physical Product
+The architecture is organized into six logical layers:
 
-This model is intentionally logical rather than vendor-specific.
+1. **Physical Pharmaceutical Supply Chain** — The physical movement and handover of pharmaceutical products among manufacturers, logistics providers, distributors or wholesalers, pharmacies, healthcare providers, and other authorized participants.
 
-### Layer 1 — Physical Product and Handover
+2. **Identification & Observation** — Product and logistics-unit identifiers, including serialization, DataMatrix and SSCC, together with environmental or logistics observations such as temperature, humidity, shock, time, and other applicable sensor measurements.
 
-The physical layer represents medicinal products, packaging hierarchies,
-shipments, custody transfers and dispensing activities.
+3. **Authoritative Operational Systems** — Existing systems that remain responsible for their respective operational records, including MES, serialization repositories, ERP, WMS/TMS, EPCIS repositories, environmental-monitoring systems, and dispensing systems.
 
-Digital architecture ultimately depends on evidence generated from this layer.
+4. **Traceability Semantics & Exchange** — Standards and interfaces that allow independently governed systems to represent and exchange traceability information consistently. Relevant mechanisms include GS1 EPCIS and CBV together with APIs and applicable JSON, JSON-LD, XML, or legacy interfaces.
 
-### Layer 2 — Identification and Sensing
+5. **Boundary Assurance Capabilities** — Logical capabilities used to evaluate assurance when information crosses organizational or system boundaries. Four assurance dimensions are considered:
 
-This layer can include:
+   - **Product Identity** — whether sufficient evidence associates the identifier being evaluated with the relevant product, package, or logistics unit.
+   - **Event Integrity** — whether the origin and subsequent integrity of a digital event representation can be evaluated.
+   - **Organizational Authority** — whether evidence concerning organizational identity or status can be evaluated and then applied by the receiving party's authorization policy.
+   - **Observation Correlation** — whether an environmental or logistics observation can be sufficiently associated with the relevant shipment, logistics unit, event, location, time interval, or custody period.
 
-- GTIN.
-- serial number.
-- batch/lot.
-- expiration.
-- SSCC.
-- DataMatrix.
-- RFID where used and
-- environmental observations.
+6. **Regulatory & Partner Ecosystems** — Existing jurisdiction-specific and trading-partner infrastructures, including applicable DSCSA infrastructure in the United States, EMVS/NMVS in Europe, Indian regulatory and export systems, and corresponding mechanisms in other jurisdictions.
 
-Its role is to connect physical objects and conditions with machine-readable
-identity and observations.
+Two cross-cutting control areas apply across these layers:
 
-### Layer 3 — Enterprise and Edge Systems
+- **Evidence Protection** — mechanisms such as digital signatures, hashes or commitments, PKI, and audit controls may protect or help evaluate digital evidence where justified.
+- **Trust & Lifecycle Governance** — issuance, key management, rotation, revocation, status checking, correction, supersession, and recovery must be governed throughout the evidence lifecycle.
 
-This layer includes operational systems such as:
+Assurance outcomes must integrate with existing operational processes. Where sufficient assurance cannot be established, systems may require exception handling, reconciliation, investigation, quarantine, or other applicable procedures rather than silently treating uncertain evidence as trusted.
 
-- packaging-line systems.
-- MES.
-- serialization repositories.
-- ERP.
-- WMS.
-- TMS.
-- IoT gateways and
-- dispensing systems.
+The architecture intentionally does not prescribe distributed-ledger technology as a permanent layer. Shared-ledger mechanisms remain conditional candidates and should be evaluated only where independently governed shared state provides material assurance that cannot be obtained more appropriately through authoritative registries, conventional APIs, signed evidence, or existing audit infrastructure.
 
-These systems remain responsible for the business and operational processes
-they control.
+Four distinctions constrain interpretation of the architecture:
 
-### Layer 4 — Event Interoperability
+- Event integrity does not establish the physical truth of the underlying event.
+- Credential verification does not itself constitute transaction authorization.
+- Device identity does not establish sensor calibration or measurement accuracy.
+- An immutable or tamper-evident history does not establish that the original assertion was correct.
 
-This layer provides normalized exchange of relevant traceability information.
+Accordingly, Figure 4 should be interpreted as a logical assurance model rather than a mandatory technology stack.
 
-GS1 EPCIS/CBV is the principal standards reference considered by RA-001 for
-visibility-event interoperability.
+![Figure 4 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability](figures/RA-001-F04-v0.4.svg)
 
-Adapters may be required for legacy or proprietary systems.
-
-### Layer 5 — Trust and Verification
-
-This layer is not synonymous with blockchain.
-
-Its purpose is to evaluate mechanisms for establishing:
-
-- organizational identity.
-- authorization.
-- message integrity.
-- evidence provenance.
-- credential validity.
-- tamper evidence and
-- cross-organizational verification.
-
-Possible mechanisms can include:
-
-- conventional PKI.
-- digital signatures.
-- verifiable credentials.
-- signed event envelopes.
-- trusted directories.
-- append-only audit structures.
-- shared or distributed ledgers and
-- combinations of these mechanisms.
-
-The appropriate mechanism depends on the trust boundary.
-
-### Layer 6 — Regulatory and Partner Ecosystems
-
-The architecture must integrate with, rather than attempt to replace,
-jurisdiction-specific and partner infrastructure.
-
-Examples include:
-
-- DSCSA trading-partner infrastructure.
-- relevant product-identifier verification services.
-- EMVS/NMVS.
-- Indian regulatory systems and
-- other authorized partner networks.
+*Figure 4 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability. The model preserves existing authoritative systems while introducing boundary-specific assurance capabilities. Cryptographic, credential, sensor, or shared-ledger mechanisms are conditional implementation choices rather than universal requirements.*
 
 ---
 
@@ -1201,16 +1140,16 @@ Cases and pallets can be opened, repacked, disaggregated, or reaggregated.
 Architectures that assume permanent parent-child relationships can produce
 incorrect histories after legitimate logistics operations.
 
-## 7.7 The Reference Architecture Is Not Yet Production Validated
+### 7.7 Architecture Status
 
-RA-001 v0.4 is a research reference architecture.
+Figures F01–F04 now form the complete logical architecture sequence for RA-001 v0.4:
 
-It has not yet been validated as a complete production implementation across
-multiple pharmaceutical trading partners.
+- **F01** establishes the physical pharmaceutical supply-chain and handover model.
+- **F02** maps the existing traceability and regulatory systems landscape.
+- **F03** identifies trust and visibility boundaries and frames the four assurance questions.
+- **F04** synthesizes those findings into a vendor-neutral logical assurance architecture.
 
-F01 establishes the physical reference model, F02 documents the current
-traceability landscape, and F03 establishes the trust and visibility boundary
-model. F04 remains under technical development and has not yet been frozen.
+F04 is architecturally complete for the v0.4 working draft. The publication remains under technical review because regulatory claims, evidence mappings, citations, terminology, and the complete document still require final verification before release.
 
 ---
 
@@ -1233,8 +1172,7 @@ readiness, regulation, cost and migration strategy.
 
 ## 8.2 Verifiable Organizational Identity
 
-W3C Verifiable Credentials Data Model 2.0 became a W3C Recommendation in May
-2025 [9].
+W3C Verifiable Credentials Data Model 2.0 became a W3C Recommendation in May 2025 [8]..
 
 Credential-based approaches may provide additional mechanisms for representing
 organizational identity, authorization, or other machine-verifiable claims.
@@ -1316,8 +1254,7 @@ controls.
 - **Digital verification does not replace physical controls.** A trustworthy
   pharmaceutical supply chain requires both physical and digital evidence.
 
-- **- **The next architectural question is which mechanisms are justified at each
-  assurance boundary.** F01 establishes the physical domain, F02 maps the
+ - **The proposed architecture strengthens assurance at organizational boundaries without requiring replacement of   existing authoritative systems.** Product identity, event integrity, organizational authority, and observation correlation are treated as separate assurance problems, with implementation mechanisms selected according to the boundary and use case rather than prescribed universally.** F01 establishes the physical domain, F02 maps the
   current systems landscape, and F03 identifies the assurance boundaries.
   F04 will evaluate which mechanisms, if any, can strengthen assurance across
   those boundaries without unnecessarily replacing existing authoritative
