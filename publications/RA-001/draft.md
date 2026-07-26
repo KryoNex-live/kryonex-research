@@ -164,7 +164,8 @@ RA-001 is globally oriented but uses three regulatory environments as major
 reference points:
 
 - United States.
-- European Union and India.
+- European Union.
+- India.
 
 These jurisdictions are not treated as having equivalent architectures.
 
@@ -452,8 +453,6 @@ visibility.
 
 ### 3.5.3 India — Domestic and Export Traceability
 
-### India
-
 India's pharmaceutical traceability environment should be interpreted with
 separate domestic and export-policy contexts.
 
@@ -462,25 +461,25 @@ barcode/QR-related identification requirements for applicable formulations.
 On 22 June 2026, the Ministry of Health and Family Welfare notified
 G.S.R. 506(E), expanding Schedule H2 to additional medicine categories,
 including all vaccines, all antimicrobials, specified narcotic drugs and
-psychotropic substances, and all anticancer drugs.
+psychotropic substances, and all anticancer drugs [5].
 
 The June 2026 notification date should not be interpreted as meaning that all
 expanded requirements were already operative at that date. The applicable
-commencement dates must be considered separately when evaluating the
-current regulatory state.
+commencement dates must be considered separately when evaluating the current
+regulatory state.
 
 India's pharmaceutical-export traceability environment has also evolved.
-Historically, DGFT Track and Trace procedures and Indian domestic and export regulatory -related
+Historically, DGFT Track and Trace procedures and DAVA/iVEDA-related
 mechanisms were used for export serialization and reporting. However, DGFT
 Public Notice No. 44/2024-25, dated 31 January 2025, withdrew Para 2.76 of
 the Handbook of Procedures 2023 concerning the Track and Trace procedure
-for exports of drug formulations and redirected implementation of
-authentication for exported drug formulations toward the Ministry of Health
-& Family Welfare under the Drugs Rules framework.
+for exports of drug formulations [6].
 
-Accordingly, RA-001 treats Indian domestic and export regulatory environments as relevant historical implementation
+Accordingly, RA-001 treats DAVA/iVEDA as relevant historical implementation
 context rather than as the unchanged current regulatory anchor for Indian
-pharmaceutical exports.
+pharmaceutical exports. The applicable current framework should instead be
+evaluated against subsequent Government of India policy and Drugs Rules
+requirements.
 
 ---
 
@@ -810,7 +809,7 @@ supported by evidence to justify architectural mechanisms in F04.
 
 ---
 
-### 5.4 Proposed Logical Assurance Architecture
+## 5.4 Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability
 
 Figure 4 synthesizes the findings from Figures 1–3 into a vendor-neutral logical assurance architecture for cross-organizational pharmaceutical traceability.
 
@@ -1297,12 +1296,6 @@ controls.
   findings into a vendor-neutral logical assurance architecture. Candidate
   mechanisms are selected according to the boundary and use case rather than
   prescribed universally.
-
-- ** F01 establishes the physical domain, F02 maps the
-  current systems landscape, and F03 identifies the assurance boundaries.
-  F04 will evaluate which mechanisms, if any, can strengthen assurance across
-  those boundaries without unnecessarily replacing existing authoritative
-  systems.
 
 ---
 
