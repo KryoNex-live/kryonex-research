@@ -12,7 +12,7 @@
 - [x] Develop F03 — Trust & Visibility Boundaries.
 - [x] Complete F04 — Proposed Logical Reference Architecture.
 - [ ] Validate final terminology against GS1 EPCIS/CBV 2.0.
-- [ ] Complete final regulatory review for US, EU, and India.
+- [ ] Complete final regulatory review for US, EU and India.
 - [ ] Perform public-disclosure/IP boundary review.
 - [ ] Complete final technical review of F01–F04 as one architecture.
 - [ ] Verify claim-to-evidence consistency across draft.md and sources/evidence-register.md.
