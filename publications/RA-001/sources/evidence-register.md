@@ -104,8 +104,8 @@ RA-001 v1.0.
 | **CL-19** | A digitally valid event or signed assertion does not by itself prove that the corresponding physical medicine is authentic. | Security Principle + KryoNex Research Synthesis | Cross-domain security reasoning applied to pharmaceutical traceability | RA-001 Sections 4 and 7 | **Research Synthesis** | Prevents digital provenance from being misrepresented as a complete anti-counterfeit guarantee. |
 | **CL-20** | A trust mechanism should be selected only after the relevant organizational/evidence boundary has been identified. | KryoNex Research Synthesis | RA-001 architectural methodology | Section 5.5 — Evidence Before Technology | **Research Synthesis** | Original RA-001 design principle. |
 | **CL-21** | Distributed ledgers are one possible multi-party trust mechanism but are not a prerequisite for pharmaceutical traceability. | Peer-Reviewed Research + KryoNex Research Synthesis | Musamih et al.; existing regulatory/standards architectures; RA-001 trade-off analysis | Sections 5.5–5.6 | **Research Synthesis** | Core vendor-neutrality decision. |
-| **CL-22** | F04 may combine conventional PKI, digital signatures, credentials, trusted directories, append-only evidence structures, shared ledgers or other mechanisms according to the trust boundary. | Proposed Architecture | KryoNex Research RA-001 | Proposed logical Trust & Verification Layer | **Proposed** | Must not be represented as established pharmaceutical industry architecture. |
-| **CL-23** | Regulatory and partner ecosystems should remain authoritative in their respective domains rather than being replaced by the proposed RA-001 trust layer. | Proposed Architecture + Regulatory Constraint | KryoNex Research synthesis based on FDA/EU/India system boundaries | F04 logical architecture | **Proposed** | Foundational integration constraint for the proposed architecture. |
+| **CL-22** | RA-001 F04 evaluates conventional PKI, digital signatures, credentials, trusted directories, protected or append-only evidence structures, shared ledgers, and other mechanisms as conditional implementation options according to the assurance boundary rather than mandatory components. | Proposed Architecture | KryoNex Research RA-001 | F04 — Logical Assurance Architecture | **Proposed** | Mechanism inclusion in the evaluation does not imply universal necessity, regulatory endorsement, or production adoption. |
+| **CL-23** | Existing operational, trading-partner, and regulatory systems remain authoritative in their respective domains; F04 introduces boundary-assurance capabilities rather than replacing those systems of record. | Proposed Architecture + Regulatory Constraint | KryoNex Research synthesis based on FDA/EU/India system boundaries | F04 — Logical Assurance Architecture | **Proposed** | Foundational integration constraint of RA-001. Boundary assurance must not be interpreted as creation of a new universal pharmaceutical authority or database. |
 | **CL-24** | F02 should model current traceability systems before F03 identifies trust boundaries and before F04 proposes additional mechanisms. | Research Methodology | KryoNex Research | RA-001 figure-development sequence | **Proposed / Methodological** | Prevents solution-first architecture and protects the research from blockchain/IoT solutionism. |
 
 ---
@@ -215,7 +215,7 @@ created the RA-001 architecture.
 | Evidence-before-technology principle | KryoNex Research | Original design principle |
 | F02 Current Traceability Landscape | KryoNex Research synthesis from standards, regulatory frameworks, and current-state systems analysis | Developed — under technical review |
 | F03 Trust & Visibility Boundaries | KryoNex Research assurance-boundary synthesis | Developed — under technical review |
-| F04 Logical Trust & Verification Architecture | KryoNex Research | Under development |
+| F04 Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability | KryoNex Research synthesis derived from F01–F03 | Developed — under technical review |
 | Distributed ledger treated as optional rather than foundational | KryoNex Research architecture decision | Active design constraint |
 
 This table establishes provenance of the **architectural synthesis** without
@@ -277,22 +277,55 @@ F03 must not manufacture a "gap" merely to justify F04.
 
 ---
 
-## F04 — Proposed Logical Reference Architecture
+## F04 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability
 
-**Purpose:** Introduce mechanisms only for evidence-supported boundaries
-identified through F03.
+**Purpose:** Synthesize the physical model (F01), current traceability landscape
+(F02), and assurance-boundary analysis (F03) into a vendor-neutral logical
+architecture for cross-organizational pharmaceutical traceability.
 
-Expected basis:
+F04 preserves existing authoritative operational, trading-partner, and
+regulatory systems rather than proposing their replacement.
 
+The architecture addresses four assurance dimensions:
+
+- **Product Identity**
+- **Event Integrity**
+- **Organizational Authority**
+- **Observation Correlation**
+
+Its logical structure comprises:
+
+1. Physical Pharmaceutical Supply Chain
+2. Identification & Observation
+3. Authoritative Operational Systems
+4. Traceability Semantics & Exchange
+5. Boundary Assurance Capabilities
+6. Regulatory & Partner Ecosystems
+
+Cross-cutting considerations include **Evidence Protection** and **Trust &
+Lifecycle Governance**.
+
+Expected evidence/synthesis basis:
+
+- CL-02 — EPCIS 2.0 and CBV capabilities;
 - CL-06/CL-07/CL-14 — credential and identity standards/patterns;
 - CL-12 — distributed-ledger research;
+- CL-15 — traceability interoperability vs. regulatory verification;
+- CL-16 — observation correlation;
+- CL-17 — identity vs. custody/authenticity;
+- CL-18 — federation of independently governed systems;
+- CL-19 — digital assertion vs. physical truth;
 - CL-20 — evidence-before-technology;
-- CL-21 — ledger optionality;
-- CL-22 — mechanism selection;
-- CL-23 — regulatory-system authority.
+- CL-21 — distributed-ledger optionality;
+- CL-23 — preservation of regulatory-system authority.
 
-F04 is explicitly **proposed architecture**, not current universal industry
-practice.
+F04 is a **KryoNex Research architectural synthesis** and is not presented as
+current universal pharmaceutical-industry architecture.
+
+The architecture does not prescribe distributed-ledger technology as a
+mandatory layer. Shared-ledger mechanisms remain conditional candidates where
+independently governed shared state is justified after considering governance,
+privacy, latency, complexity, and operational requirements.
 
 ---
 
@@ -354,27 +387,35 @@ Before a claim is promoted into RA-001 v1.0:
 
 At this revision:
 
-- F01 establishes the physical supply-chain reference model.
+- F01 establishes the physical pharmaceutical supply-chain and handover model.
 - F02 establishes the current pharmaceutical traceability systems landscape.
-- F03 establishes the trust and visibility boundary model.
-- Current regulatory and standards evidence has been classified.
-- Architectural provenance has been separated from external standards and
-  regulatory requirements.
-- Blockchain/distributed-ledger technology remains explicitly optional.
-- F01–F03 remain subject to final publication-level technical and editorial
-  review.
-- F04 has not yet been frozen.
+- F03 establishes the trust and visibility boundary model and its four assurance questions.
+- F04 synthesizes F01–F03 into the Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability.
+- F01–F04 are architecturally complete for the v0.4 working draft.
+- Existing operational and regulatory systems remain authoritative within the proposed architecture.
+- Product Identity, Event Integrity, Organizational Authority, and Observation Correlation remain distinct assurance dimensions.
+- Evidence Protection and Trust & Lifecycle Governance are treated as cross-cutting concerns.
+- Distributed-ledger technology remains explicitly optional and conditional rather than foundational.
+- Current regulatory, standards, implementation, research, and architectural-synthesis evidence has been classified.
+- Architectural provenance remains explicitly separated from external standards, regulatory requirements, and prior research.
 
-The next research milestone is **F04 — Proposed Logical Reference
-Architecture**.
+Architectural completion of F01–F04 does **not** constitute publication approval.
 
-F04 must derive architectural mechanisms from the assurance requirements
-identified through F03 rather than beginning with a preferred technology.
+Before RA-001 can progress from the v0.4 working draft toward a publication
+candidate, the complete document remains subject to:
 
-Blockchain, distributed ledgers, digital credentials, signatures, IoT,
-cryptographic proofs, registries, and conventional centralized mechanisms
-must therefore be evaluated as architectural options where applicable, not
-assumed requirements.
+- final primary-source verification of regulatory claims;
+- citation and bibliography reconciliation;
+- standards-version and terminology verification;
+- claim-to-evidence consistency review;
+- cross-figure and prose consistency review;
+- final technical review;
+- final editorial review; and
+- publication metadata and release validation.
+
+The next milestone is therefore **publication-level technical and evidence
+verification of the complete RA-001 artifact**, not development of another
+architecture figure.
 
 ---
 
