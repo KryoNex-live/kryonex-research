@@ -7,7 +7,7 @@ author_role: "KryoNex Research & Engineering Team"
 status: working-draft
 document_version: 0.4
 publish_date: ""
-last_updated: "2026-07-24"
+last_updated: "2026-07-26"
 tags:
   - pharmaceutical-traceability
   - supply-chain
@@ -27,6 +27,7 @@ indicate production validation or regulatory approval.
 ---
 
 ## [0.4] — 2026-07-24
+> **Technical review updated:** 26 July 2026
 
 ### Research
 
@@ -41,6 +42,30 @@ indicate production validation or regulatory approval.
 - Distinguished standards capability, regulatory requirements, industry
   implementation patterns, peer-reviewed research, and KryoNex Research
   architectural synthesis.
+- Reconciled the July 2026 regulatory evidence state against primary,
+  standards, official implementation, intergovernmental, and peer-reviewed
+  sources.
+- Updated the Indian domestic traceability analysis to distinguish the
+  22 June 2026 Schedule H2 notification from the applicable commencement
+  dates of the expanded provisions.
+- Updated the Indian pharmaceutical-export analysis to account for DGFT
+  Public Notice No. 44/2024-25 of 31 January 2025, which withdrew the
+  Track and Trace procedure contained in Para 2.76 of the Handbook of
+  Procedures 2023.
+- Reclassified DAVA/iVEDA as historical export implementation context rather
+  than representing it as the unchanged current Indian export-regulatory
+  architecture.
+- Strengthened the European evidence model by separating EU regulatory
+  requirements from EMVS operational implementation and distinguishing
+  medicines verification from continuous logistics-event traceability.
+- Updated organizational-authority analysis to distinguish W3C identity and
+  credential standards, OCI industry interoperability mechanisms, and
+  regulatory authority.
+- Replaced generic counterfeit-goods evidence with pharmaceutical-specific
+  OECD/EUIPO research.
+- Removed evidence sources that were not required to support substantive
+  RA-001 claims rather than retaining citations solely for bibliography
+  breadth.
 
 ### Architecture
 
@@ -96,19 +121,52 @@ indicate production validation or regulatory approval.
 - Removed unsupported universal performance and adoption claims.
 - Added explicit limitations and production-validation boundaries.
 - Established architectural provenance for KryoNex Research synthesis.
+- Completed the v0.4 research-discovery reconciliation for F01–F04 and
+  established a research-discovery freeze: additional technologies,
+  architectural layers, or general literature are not to be introduced
+  unless subsequent verification identifies a material factual,
+  regulatory, standards, or architectural issue.
+- Standardized the approved F04 name as **Logical Assurance Architecture for
+  Cross-Organizational Pharmaceutical Traceability**.
+- Preserved the distinction between external facts, KryoNex Research
+  synthesis, and proposed architectural mechanisms.
 
 ### Publication Status
 
 RA-001 remains **Version 0.4 — Working Draft / Under Technical Review**.
 
-The F01–F04 architecture sequence is complete for the v0.4 working draft.
+The F01–F04 architecture sequence is complete for the v0.4 working draft:
 
-Architecture completion does not constitute publication approval. Regulatory
-claims, standards references, evidence mappings, citations, terminology,
-cross-figure consistency, and the complete publication remain subject to final
-technical and editorial verification.
+- F01 establishes the physical pharmaceutical supply-chain model.
+- F02 establishes the current traceability and regulatory systems landscape.
+- F03 establishes the Trust & Visibility Boundaries model and four assurance
+  dimensions.
+- F04 synthesizes F01–F03 into the Logical Assurance Architecture for
+  Cross-Organizational Pharmaceutical Traceability.
 
-The next milestone is publication-level technical and evidence verification of
-the complete RA-001 artifact.
+Research discovery for the v0.4 architecture has been frozen following the
+July 2026 evidence reconciliation. This freeze does not prevent correction of
+a factual error, citation, terminology issue, regulatory development, or other
+material issue identified during final verification.
 
-No v1.0 publication claim is made by this release.
+Architecture completion and research-discovery freeze do **not** constitute
+publication approval, regulatory validation, production validation, or
+implementation certification.
+
+The publication remains subject to:
+
+- final primary-source and bibliography verification;
+- regulatory and standards terminology review;
+- claim-to-evidence consistency verification;
+- F01–F04 cross-figure and narrative consistency review;
+- public-disclosure and intellectual-property boundary review;
+- final technical review;
+- final editorial review;
+- publication-asset and metadata freeze; and
+- website/publication-state synchronization and validation.
+
+The next milestone is publication-level verification and controlled
+cross-artifact synchronization of the complete RA-001 artifact.
+
+No **v1.0**, **Published**, regulatory-approval, or production-validation claim
+is made by this release.
