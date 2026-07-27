@@ -3,7 +3,7 @@ id: RA-001
 title: "Building Trust Across the Pharmaceutical Supply Chain"
 subtitle: "A Reference Architecture for End-to-End Traceability"
 author: "A. S. Tomar"
-author_role: "KryoNex Research & Engineering Team"
+author_role: "KryoNex Research "
 status: "Published"
 document_version: "1.0"
 publish_date: "27 July 2026"
@@ -24,7 +24,7 @@ tags:
 
 **RA-001 · Version 1.0 · Published**
 
-Prepared by **A. S. Tomar — KryoNex Research & Engineering Team**
+Prepared by **A. S. Tomar — KryoNex Research (https://kryonex.live)**
 
 **Status:** Published  
 **Last Updated:** 27 July 2026
