@@ -590,16 +590,9 @@ At this revision:
 Before RA-001 can progress from v0.4 Working Draft / Under Technical Review to
 a publication candidate, the complete artifact remains subject to:
 
-- synchronization of the master draft with this evidence register;
-- bibliography and citation reconciliation;
-- final standards-version and terminology verification;
-- claim-to-evidence consistency review;
-- cross-figure and prose consistency review;
-- public-disclosure and intellectual-property boundary review;
-- final technical review;
-- final editorial review;
-- publication metadata validation; and
-- release-state validation.
+- final cross-artifact repository ↔ website verification;
+- publication metadata/release-state validation;
+- controlled v1.0 publication transition.
 
 The next milestone is therefore **master-draft synchronization and
 publication-level verification**, not development of another architecture
