@@ -463,8 +463,7 @@ G.S.R. 506(E), expanding Schedule H2 to additional medicine categories,
 including all vaccines, all antimicrobials, specified narcotic drugs and
 psychotropic substances, and all anticancer drugs [5].
 
-The June 2026 notification date should not be interpreted as meaning that all
-expanded requirements were already operative at that date. The June 2026 notification does not make these expanded requirements
+The June 2026 notification does not make these expanded requirements
 immediately operative. The Drugs (Seventh Amendment) Rules, 2026 come into
 force on 1 July 2027, except for the Schedule H2 provision concerning all
 antimicrobials, which comes into force on 1 July 2028.
@@ -1161,7 +1160,7 @@ Cases and pallets can be opened, repacked, disaggregated, or reaggregated.
 Architectures that assume permanent parent-child relationships can produce
 incorrect histories after legitimate logistics operations.
 
-### 7.7 Architecture Status
+## 7.7 Architecture Status
 
 Figures F01–F04 now form the complete logical architecture sequence for RA-001 v0.4:
 
@@ -1170,7 +1169,11 @@ Figures F01–F04 now form the complete logical architecture sequence for RA-001
 - **F03** identifies trust and visibility boundaries and frames the four assurance questions.
 - **F04** synthesizes those findings into a vendor-neutral logical assurance architecture.
 
-F04 is architecturally complete for the v0.4 working draft. The publication remains under technical review because regulatory claims, evidence mappings, citations, terminology, and the complete document still require final verification before release.
+F04 is architecturally complete for the v0.4 working draft. Regulatory,
+standards-terminology, claim-to-evidence, architecture-consistency, and
+public-disclosure/IP reviews have been completed for the current review state.
+The publication remains under technical review pending final publication-asset
+and metadata freeze, website synchronization, and release approval.
 
 ---
 
