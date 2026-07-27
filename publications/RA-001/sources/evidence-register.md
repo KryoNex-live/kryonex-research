@@ -2,7 +2,7 @@
 
 **Publication:** Building Trust Across the Pharmaceutical Supply Chain  
 **Publication ID:** RA-001  
-**Publication Version:** 0.4 (Working Draft)  
+**Publication Version:** 1.0 (Published)  
 **Register Version:** 1.0  
 **Status:** Published  
 **Author:** A. S. Tomar — KryoNex Research & Engineering Team  
