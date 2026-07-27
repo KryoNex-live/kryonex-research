@@ -6,7 +6,7 @@
 **Register Version:** 0.4  
 **Status:** Under Technical Review  
 **Author:** A. S. Tomar — KryoNex Research & Engineering Team  
-**Last Audited:** 26 July 2026  
+**Last Audited:** 27 July 2026  
 **Next Scheduled Review:** 24 January 2027
 
 ---
@@ -545,6 +545,7 @@ Before a claim is promoted into RA-001 v1.0:
 
 | Date | Version | Reviewer | Review Activity |
 |---|---|---|---|
+| 2026-07-27 | 0.4 | A. S. Tomar — KryoNex Research | Completed F01–F04 architecture and cross-figure consistency review; synchronized final publication figure assets; corrected generated-artwork terminology regressions; preserved current Indian regulatory/export treatment and technology-neutral assurance architecture. |
 | 2026-07-24 | 0.4 | A. S. Tomar — KryoNex Research | Established claim-level evidence registry; separated regulatory, standards, implementation, research, synthesis, and proposed-architecture evidence classes. |
 | 2026-07-26 | 0.4 | A. S. Tomar — KryoNex Research | Completed research-discovery reconciliation for F01–F04; incorporated July 2026 regulatory/current-state corrections; updated Indian domestic/export treatment; strengthened EU/EMVS and OCI distinctions; updated counterfeit-pharmaceutical evidence; synchronized F04 provenance and architecture status. |
 
