@@ -8,7 +8,7 @@ status: "Published"
 document_version: "1.0"
 publish_date: "27 July 2026"
 last_updated: "2026-07-27"
-Pre-RA-001 engineering provenance: November 2024
+pre_ra001_engineering_provenance: "November 2024"
 tags:
   - pharmaceutical-traceability
   - supply-chain
