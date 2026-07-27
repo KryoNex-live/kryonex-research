@@ -4,10 +4,11 @@ title: "Building Trust Across the Pharmaceutical Supply Chain"
 subtitle: "A Reference Architecture for End-to-End Traceability"
 author: "A. S. Tomar"
 author_role: "KryoNex Research & Engineering Team"
-status: "working-draft"
-document_version: "0.4"
-publish_date: ""
+status: "Published"
+document_version: "1.0"
+publish_date: "27 July 2026"
 last_updated: "2026-07-27"
+Pre-RA-001 engineering provenance: November 2024
 tags:
   - pharmaceutical-traceability
   - supply-chain
@@ -21,23 +22,32 @@ tags:
 
 ## A Reference Architecture for End-to-End Traceability
 
-**RA-001 · Version 0.4 · Working Draft**
+**RA-001 · Version 0.4 · Published**
 
 Prepared by **A. S. Tomar — KryoNex Research & Engineering Team**
 
-**Status:** Under Technical Review  
+**Status:** Published  
 **Last Updated:** 27 July 2026
 
 > **Research status**
 >
-> RA-001 is a working reference architecture. It examines existing
-> pharmaceutical traceability mechanisms and develops a vendor-neutral
-> architectural model for connecting product identity, traceability events,
-> environmental observations, enterprise systems and trust mechanisms across
-> organizational boundaries.
+> RA-001 is a published, vendor-neutral reference architecture for
+> cross-organizational pharmaceutical traceability. It examines existing
+> pharmaceutical traceability mechanisms and presents an architectural model
+> for connecting product identity, traceability events, environmental
+> observations, enterprise systems, and trust mechanisms across organizational
+> boundaries.
 >
-> This version does not propose distributed-ledger technology, blockchain, IoT,
-> or any other individual technology as a universal requirement.
+> The architecture preserves existing authoritative regulatory, operational,
+> and enterprise systems rather than proposing their replacement. Assurance
+> mechanisms are evaluated according to the specific trust and evidence
+> boundaries they address.
+>
+> RA-001 does not prescribe distributed-ledger technology, blockchain, IoT,
+> verifiable credentials, or any other individual technology as a universal
+> requirement. Such mechanisms remain conditional implementation choices whose
+> suitability depends on the applicable architecture, governance, regulatory,
+> operational, and trust requirements.
 
 ---
 
@@ -211,7 +221,7 @@ This distinction is fundamental to RA-001.
 
 ## 2.5 Out of Scope
 
-Version 0.4 does not attempt to:
+RA-001 does not attempt to::
 
 - replace DSCSA, EMVS/NMVS, CDSCO, Indian domestic and export regulatory, or other regulatory infrastructure.
 - define a new pharmaceutical serialization standard.
@@ -1162,18 +1172,25 @@ incorrect histories after legitimate logistics operations.
 
 ## 7.7 Architecture Status
 
-Figures F01–F04 now form the complete logical architecture sequence for RA-001 v0.4:
+Figures F01–F04 now form the complete logical architecture sequence for RA-001 v1.0:
 
-- **F01** establishes the physical pharmaceutical supply-chain and handover model.
-- **F02** maps the existing traceability and regulatory systems landscape.
-- **F03** identifies trust and visibility boundaries and frames the four assurance questions.
-- **F04** synthesizes those findings into a vendor-neutral logical assurance architecture.
+- F01-F04 form the complete logical architecture sequence for RA-001 v1.0.
+- F01 establishes the physical supply-chain model.
+- F02 maps the traceability/regulatory systems landscape.
+- F03 identifies trust and visibility boundaries.
+- F04 provides the vendor-neutral logical assurance architecture.
+- regulatory review is complete for the v1.0 baseline.
+- standards-terminology review is complete.
+- claim-to-evidence review is complete.
+- architecture-consistency review is complete.
+- public-disclosure/IP review is complete.
+- publication asset/metadata freeze is complete.
+- final cross-artifact release verification is complete.
+- RA-001 v1.0 was published on 27 July 2026.
 
-F04 is architecturally complete for the v0.4 working draft. Regulatory,
-standards-terminology, claim-to-evidence, architecture-consistency, and
+
+Regulatory, standards-terminology, claim-to-evidence, architecture-consistency and
 public-disclosure/IP reviews have been completed for the current review state.
-The publication remains under technical review pending final publication-asset
-and metadata freeze, website synchronization, and release approval.
 
 ---
 
@@ -1307,8 +1324,9 @@ controls.
 
 > **Reference note:** Regulatory and standards references are maintained with
 > claim-level verification in `sources/evidence-register.md`. RA-001 v0.4
-> remains under technical review; time-sensitive regulatory claims will be
-> rechecked before publication.
+> Regulatory and standards references are maintained with claim-level
+verification in sources/evidence-register.md. Time-sensitive regulatory
+claims should be revalidated in future revisions when applicable.
 
 [1] U.S. Food and Drug Administration (FDA), *Drug Supply Chain Security Act
 (DSCSA)* implementation materials, including applicable FDA waivers,
