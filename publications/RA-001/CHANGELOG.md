@@ -25,6 +25,20 @@ RA-001 follows research-document versioning. A working-draft version does not
 indicate production validation or regulatory approval.
 
 ---
+## Pre-RA-001 Engineering Provenance — November 2024
+
+Engineering and implementation work on pharmaceutical supply-chain
+traceability concepts that later informed RA-001 began in November 2024.
+
+This earlier work was undertaken as implementation and engineering activity,
+not as a formally versioned A. S. Tomar (KryoNex Research) publication. RA-001 was
+subsequently formalized as a research artifact in 2026, incorporating
+standards analysis, regulatory research, evidence mapping, architectural
+synthesis, and publication-level technical review.
+
+The November 2024 provenance therefore represents the origin of the underlying
+engineering investigation and does not constitute an RA-001 publication date,
+research-publication version, or prior public release.
 
 ## [0.4] — 2026-07-24
 > **Technical review updated:** 27 July 2026
