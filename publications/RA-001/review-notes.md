@@ -22,7 +22,7 @@
 - [x] Verify that historical mechanisms and terminology are not presented as current regulatory state, particularly DAVA/iVEDA in the Indian export context.
 - [ ] Synchronize the approved RA-001 research state with the KryoNex website (https://kryonex.live) publication datastore and presentation layer.
 - [x] Complete final editorial review.
-- [ ] Freeze publication assets and figure versions.
+- [x] Freeze publication assets and figure versions.
 
 ## Release Gate
 
