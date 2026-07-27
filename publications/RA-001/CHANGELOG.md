@@ -4,9 +4,9 @@ title: "Building Trust Across the Pharmaceutical Supply Chain"
 subtitle: "A Reference Architecture for End-to-End Traceability"
 author: "A. S. Tomar"
 author_role: "KryoNex Research & Engineering Team"
-status: working-draft
-document_version: 0.4
-publish_date: ""
+status: published
+document_version: 1.0
+publish_date: "2026-07-27"
 last_updated: "2026-07-27"
 tags:
   - pharmaceutical-traceability
@@ -21,8 +21,9 @@ tags:
 All notable research, architecture, evidence, and publication-state changes to
 RA-001 are recorded here.
 
-RA-001 follows research-document versioning. A working-draft version does not
-indicate production validation or regulatory approval.
+RA-001 follows research-document versioning. Publication of a research
+artifact does not constitute regulatory approval, production validation,
+implementation certification, or endorsement by any referenced authority.
 
 ---
 ## Pre-RA-001 Engineering Provenance — November 2024
@@ -39,6 +40,64 @@ synthesis, and publication-level technical review.
 The November 2024 provenance therefore represents the origin of the underlying
 engineering investigation and does not constitute an RA-001 publication date,
 research-publication version, or prior public release.
+
+## [1.0] — 2026-07-27
+
+### Release
+
+- Published the first public version of RA-001 following completion of the
+  controlled technical-review and release process.
+- Completed primary-source and bibliography verification.
+- Completed regulatory and standards terminology review.
+- Completed claim-to-evidence consistency verification.
+- Completed F01–F04 cross-figure, terminology, and narrative consistency
+  review.
+- Completed public-disclosure and intellectual-property boundary review.
+- Completed final technical and editorial review.
+- Completed publication-asset and metadata freeze.
+- Completed final cross-artifact and release-state verification between the
+  canonical RA-001 research repository and the KryoNex website publication
+  representation.
+
+### Research and Architecture Baseline
+
+- Established the reviewed F01–F04 architecture sequence as the publication
+  baseline for RA-001 v1.0.
+- Preserved the six-layer Logical Assurance Architecture for
+  Cross-Organizational Pharmaceutical Traceability and its cross-cutting
+  Evidence Protection and Trust & Lifecycle Governance concerns.
+- Preserved the four assurance dimensions: Product Identity, Event Integrity,
+  Organizational Authority, and Observation Correlation.
+- Preserved authoritative regulatory, operational, and enterprise systems as
+  systems of record rather than proposing their universal replacement.
+- Preserved blockchain, distributed-ledger technology, IoT, verifiable
+  credentials, and other mechanisms as conditional implementation choices
+  rather than universal architectural requirements.
+- Preserved DAVA/iVEDA as historical Indian export implementation context and
+  DGFT Public Notice No. 44/2024-25-DGFT as the authority establishing the
+  withdrawal of Para 2.76 of the Handbook of Procedures 2023.
+
+### Publication Assets
+
+- Frozen F01–F04 publication figures for the v1.0 publication baseline.
+- Figure asset filenames retain their approved `v0.4` figure-version
+  identifiers; their inclusion in RA-001 v1.0 does not require renaming the
+  frozen assets.
+
+### Publication Status
+
+RA-001 is **Version 1.0 — Published**.
+
+**Publication date:** 27 July 2026
+
+The publication represents a vendor-neutral research reference architecture.
+Publication does not constitute regulatory approval, production validation,
+implementation certification, or endorsement by any standards body,
+regulator, organization, or authority referenced by RA-001.
+
+Future substantive corrections or developments should be recorded through
+explicit document versioning or an appropriate erratum/revision rather than
+silently altering the v1.0 research record.
 
 ## [0.4] — 2026-07-24
 > **Technical review updated:** 27 July 2026
@@ -172,7 +231,7 @@ implementation certification.
 
 The next milestone:
 
-The publication has completed the v0.4 primary-source and bibliography
+The publication has completed the v1.0 primary-source and bibliography
 verification, regulatory and standards terminology review, claim-to-evidence
 consistency verification, F01–F04 cross-figure and narrative consistency
 review, public-disclosure and intellectual-property boundary review, final
