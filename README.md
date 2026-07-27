@@ -1,74 +1,175 @@
 # KryoNex Research
 
-Research-driven insights on AI, Industrial IoT, Enterprise Architecture, Intelligent Automation, Supply Chain Technology, and Digital Transformation.
+KryoNex Research is a technical research publication focused on reference
+architectures, engineering frameworks, and evidence-based analysis across
+AI, Industrial IoT, Enterprise Architecture, Intelligent Automation,
+Supply Chain Technology, and Digital Transformation.
 
-Published by KryoNex — [kryonex.live](https://kryonex.live)
+Published through **KryoNex Research**.
 
-Read `MANIFESTO.md` first. It defines what this publication stands for and
-is the tiebreaker whenever a draft's tone or content is in question.
+Website: https://kryonex.live  
+Research: https://kryonex.live/research
+
+Read `MANIFESTO.md` first. It defines the principles, research boundaries,
+and editorial position of this repository and acts as the tiebreaker whenever
+a publication's scope, tone, evidence standard, or technical position is
+unclear.
 
 ## Editorial Position
 
-KryoNex Research publishes reference architectures, frameworks, and technical
-analysis — not product marketing. Publications do not promote KryoNex's
-commercial offerings and avoid sales language. The goal is work a CTO,
-architect, or engineer would trust enough to cite.
+KryoNex Research publishes reference architectures, frameworks, technical
+notes, engineering guides, white papers, and evidence-based technical
+analysis.
+
+The research is not product marketing.
+
+Publications should:
+
+- remain technically defensible and evidence-aware;
+- distinguish external facts from architectural synthesis;
+- distinguish standards capability from regulatory requirements;
+- avoid unsupported adoption, performance, or universality claims;
+- preserve vendor neutrality unless a publication explicitly studies a
+  particular technology or implementation;
+- document important limitations and validation boundaries;
+- maintain traceable evidence and publication provenance.
+
+The objective is to produce durable technical work that architects,
+engineers, researchers, technical leaders, and decision-makers can evaluate,
+reference, and cite.
+
+---
+
+## Published Research
+
+### RA-001 — Building Trust Across the Pharmaceutical Supply Chain
+
+**A Reference Architecture for End-to-End Traceability**
+
+| Field | Value |
+|---|---|
+| Research ID | RA-001 |
+| Type | Reference Architecture |
+| Author | A. S. Tomar |
+| Affiliation | KryoNex |
+| Publisher | KryoNex Research |
+| Version | 1.0 |
+| Publication Date | 27 July 2026 |
+| Status | Published |
+
+RA-001 presents a vendor-neutral reference architecture for
+cross-organizational pharmaceutical traceability.
+
+It examines pharmaceutical identification, serialization, GS1 EPCIS
+traceability events, enterprise and regulatory systems, environmental
+observations, organizational authority, evidence integrity, and trust
+boundaries across multi-party pharmaceutical supply chains.
+
+The architecture does not prescribe blockchain, distributed ledgers, IoT,
+verifiable credentials, or any other individual technology as a universal
+requirement. Technologies are evaluated according to the assurance problem,
+governance model, regulatory environment, interoperability requirements,
+and implementation context.
+
+**Canonical publication**
+
+https://kryonex.live/research/ra-001-pharmaceutical-supply-chain-traceability
+
+**Publication source and evidence**
+
+`publications/RA-001/`
+
+**Version 1.0 PDF**
+
+`releases/RA-001/v1.0/RA-001-v1.0.pdf`
+
+**Evidence register**
+
+`publications/RA-001/sources/evidence-register.md`
+
+**Citation metadata**
+
+`CITATION.cff`
+
+---
 
 ## Repository Structure
 
-```
-MANIFESTO.md    What this publication stands for. Read first.
+```text
+MANIFESTO.md
+    Research and editorial principles for KryoNex Research.
 
-publications/   One folder per publication (RA-001, FM-001, ...):
-                  draft.md            the publication itself
-                  sources/            research source tracking (per-publication)
-                  figures/            diagram source (.drawio) + exports (.svg/.png)
-                  CHANGELOG.md        version history, published only after v1.0
-                  review-notes.md     internal reviewer feedback — never published
+publications/
+    Canonical research sources organized by publication ID.
 
-frameworks/     Reusable non-article outputs, organized by type:
-                  trust-models/
-                  maturity-models/
-                  decision-matrices/
-                  implementation-patterns/
+    RA-001/
+        draft.md
+            Canonical manuscript source.
 
-research-log/   Dated, unstructured research sessions (YYYY-MM-DD.md),
-                spanning whatever publications are active that day.
-                Research happens here first — never directly inside a draft.
+        sources/
+            Publication-specific evidence tracking and source records.
 
-diagrams/       Shared/reusable diagram assets not tied to one publication
-references/     Shared citation library, standards docs (GS1, WHO, FDA, EMA, ISO, etc.)
-templates/      Publication template, diagram rules, citation style,
-                changelog/review-notes/research-log templates
-images/         Brand assets (wordmark, color/type specimens)
-editorial/      Brand style guide, editorial guidelines
-checklists/     Review, SEO, and AI-discoverability checklists
-```
+        figures/
+            Publication figures and approved publication assets.
 
-## Publication Numbering
+        CHANGELOG.md
+            Research and publication version history.
 
-Prefix by type, sequential within each prefix:
+        review-notes.md
+            Internal review record. Not a public publication artifact.
 
-| Prefix | Type |
-|---|---|
-| RA | Reference Architecture |
-| FM | Framework / Maturity Model |
-| EG | Engineering Guide |
-| TN | Technical Note |
-| WP | White Paper |
+releases/
+    Frozen publication artifacts organized by publication and version.
 
-"Publications" — not "articles" — because most of these aren't articles in
-the blog-post sense; they're durable technical references.
+    RA-001/
+        v1.0/
+            RA-001-v1.0.pdf
+            metadata.json
+            checksums.txt
 
-## Figure Numbering
+frameworks/
+    Reusable research outputs such as:
+        trust-models/
+        maturity-models/
+        decision-matrices/
+        implementation-patterns/
 
-`{publication-id}-F{NN}`, e.g. `RA-001-F01`. Always includes the publication
-ID, never a bare "Figure 1" — keeps figures unambiguous when reused or cited
-externally.
+research-log/
+    Dated research sessions and exploratory research records.
 
-## Status
+    Research exploration happens here before material is promoted into
+    canonical publication content.
 
-| ID | Type | Title | Status |
-|---|---|---|---|
-| RA-001 | Reference Architecture | Building Trust Across the Pharmaceutical Supply Chain: A Reference Architecture for End-to-End Traceability Using IoT and Distributed Ledgers | Research phase |
-| FM-001 | Maturity Model | Industrial AI Adoption Maturity Model | Not started |
+diagrams/
+    Shared or reusable diagram assets not owned by a single publication.
+
+references/
+    Shared citation resources, standards references, and research material.
+
+templates/
+    Controlled templates for future research publications and reviews.
+
+    research-publication/
+        README.template.md
+        draft.template.md
+        CHANGELOG.template.md
+        review-notes.template.md
+        evidence-register.template.md
+
+    checklists/
+        technical-review.md
+        publication-release.md
+        website-sync.md
+        live-verification.md
+
+images/
+    Shared research/publication brand assets.
+
+editorial/
+    Editorial standards and research publication guidance.
+
+checklists/
+    Repository-level review, publication, SEO, and discoverability controls.
+
+CITATION.cff
+    Machine-readable repository citation metadata.
