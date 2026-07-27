@@ -22,7 +22,7 @@ tags:
 
 ## A Reference Architecture for End-to-End Traceability
 
-**RA-001 · Version 0.4 · Published**
+**RA-001 · Version 1.0 · Published**
 
 Prepared by **A. S. Tomar — KryoNex Research & Engineering Team**
 
