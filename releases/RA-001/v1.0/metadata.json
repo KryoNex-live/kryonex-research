@@ -7,7 +7,8 @@
   "publicationDate": "2026-07-27",
   "language": "English",
   "author": {
-    "name": "A. S. Tomar"
+    "name": "A. S. Tomar",
+    "orcid": "https://orcid.org/0009-0004-2859-6800"
   },
   "affiliation": {
     "name": "KryoNex",
@@ -17,6 +18,12 @@
     "name": "KryoNex Research",
     "url": "https://kryonex.live/research"
   },
+  "license": {
+    "name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+    "identifier": "CC-BY-NC-ND-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "copyright": "© 2026 A. S. Tomar.",
   "canonicalPublication": "https://kryonex.live/research/ra-001-pharmaceutical-supply-chain-traceability",
   "researchRepository": "https://github.com/KryoNex-live/kryonex-research"
 }
