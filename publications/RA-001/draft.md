@@ -1367,12 +1367,6 @@ Second Edition, 2022.
 8 June 2011 amending Directive 2001/83/EC as regards the prevention of the
 entry into the legal supply chain of falsified medicinal products.
 
-[16] Government of India, Ministry of Commerce & Industry, Department of
-Commerce, Directorate General of Foreign Trade — Public Notice
-No. 44/2024-25-DGFT, "Withdrawal of Para 2.76 of Handbook of Procedures –
-2023 regarding Track and Trace system for export of drug formulations,"
-31 January 2025.
-
 ---
 
 ## Publication and Research Notice
