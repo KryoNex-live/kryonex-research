@@ -51,11 +51,13 @@ reference, and cite.
 | Research ID | RA-001 |
 | Type | Reference Architecture |
 | Author | A. S. Tomar |
+| Orcid | https://orcid.org/0009-0004-2859-6800 |
 | Affiliation | KryoNex |
 | Publisher | KryoNex Research |
 | Version | 1.0 |
 | Publication Date | 27 July 2026 |
 | Status | Published |
+| license | "CC-BY-NC-ND-4.0 |
 
 RA-001 presents a vendor-neutral reference architecture for
 cross-organizational pharmaceutical traceability.
