@@ -1323,10 +1323,8 @@ controls.
 # 10. References
 
 > **Reference note:** Regulatory and standards references are maintained with
-> claim-level verification in `sources/evidence-register.md`. RA-001 v0.4
-> Regulatory and standards references are maintained with claim-level
-verification in sources/evidence-register.md. Time-sensitive regulatory
-claims should be revalidated in future revisions when applicable.
+> claim-level verification in `sources/evidence-register.md`. Time-sensitive
+> regulatory claims should be revalidated in future revisions when applicable.
 
 [1] U.S. Food and Drug Administration (FDA), *Drug Supply Chain Security Act
 (DSCSA)* implementation materials, including applicable FDA waivers,
