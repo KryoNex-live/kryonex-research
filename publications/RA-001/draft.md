@@ -435,7 +435,7 @@ architecture.
 
 The Falsified Medicines Directive and Delegated Regulation (EU) 2016/161
 establish safety-feature and verification requirements for applicable medicinal
-products [3].
+products [15, 3].
 
 The European Medicines Verification System operates through a European and
 national repository structure. Manufacturers or marketing authorization
@@ -1332,7 +1332,7 @@ of the Handbook of Procedures 2023 concerning Track and Trace for exports
 of drug formulations.
 
 [7] GS1, *GS1 General Specifications*, including standards for product and
-logistics-unit identification and Serial Shipping Container Code (SSCC).
+logistics-unit identification and the Serial Shipping Container Code (SSCC).
 
 [8] World Wide Web Consortium (W3C), *Verifiable Credentials Data Model
 v2.0*, W3C Recommendation, 15 May 2025.
