@@ -3,8 +3,8 @@
 **Publication:** Building Trust Across the Pharmaceutical Supply Chain  
 **Publication ID:** RA-001  
 **Publication Version:** 0.4 (Working Draft)  
-**Register Version:** 0.4  
-**Status:** Under Technical Review  
+**Register Version:** 1.0  
+**Status:** Published  
 **Author:** A. S. Tomar — KryoNex Research & Engineering Team  
 **Last Audited:** 27 July 2026  
 **Next Scheduled Review:** 24 January 2027
@@ -556,49 +556,6 @@ Before a claim is promoted into RA-001 v1.0:
 ---
 
 # 12. Current Review State
-
-**RA-001 v0.4 remains a Working Draft under Technical Review.**
-
-Research discovery for the v0.4 architecture is frozen unless subsequent
-verification identifies a material factual error or a regulatory development
-that affects publication accuracy.
-
-At this revision:
-
-- F01 establishes the physical pharmaceutical supply-chain and handover model.
-- F02 establishes the current pharmaceutical traceability systems landscape.
-- F03 establishes the Trust & Visibility Boundaries model.
-- F03 maintains the principle that a boundary does not itself constitute a
-  failure.
-- F03 defines Product Identity, Event Integrity, Organizational Authority, and
-  Observation Correlation as distinct assurance dimensions.
-- F04 synthesizes F01–F03 into the **Logical Assurance Architecture for
-  Cross-Organizational Pharmaceutical Traceability**.
-- F01–F04 are architecturally complete for the v0.4 working draft.
-- Existing operational, trading-partner, and regulatory systems remain
-  authoritative within the proposed architecture.
-- Evidence Protection and Trust & Lifecycle Governance are treated as
-  cross-cutting concerns.
-- Distributed-ledger technology remains explicitly optional and conditional
-  rather than foundational.
-- Regulatory, standards, implementation, research, architectural-synthesis,
-  and proposed-architecture evidence are intentionally separated.
-- Architectural provenance remains explicitly separated from external
-  standards, regulatory requirements, and prior research.
-- Architectural completion does not constitute publication approval.
-
-Before RA-001 can progress from v0.4 Working Draft / Under Technical Review to
-a publication candidate, the complete artifact remains subject to:
-
-- final cross-artifact repository ↔ website verification;
-- publication metadata/release-state validation;
-- controlled v1.0 publication transition.
-
-The next milestone is therefore **master-draft synchronization and
-publication-level verification**, not development of another architecture
-figure.
-
----
 
 # Research Notice
 
