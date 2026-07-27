@@ -464,9 +464,10 @@ including all vaccines, all antimicrobials, specified narcotic drugs and
 psychotropic substances, and all anticancer drugs [5].
 
 The June 2026 notification date should not be interpreted as meaning that all
-expanded requirements were already operative at that date. The applicable
-commencement dates must be considered separately when evaluating the current
-regulatory state.
+expanded requirements were already operative at that date. The June 2026 notification does not make these expanded requirements
+immediately operative. The Drugs (Seventh Amendment) Rules, 2026 come into
+force on 1 July 2027, except for the Schedule H2 provision concerning all
+antimicrobials, which comes into force on 1 July 2028.
 
 India's pharmaceutical-export traceability environment has also evolved.
 Historically, DGFT Track and Trace procedures and DAVA/iVEDA-related
