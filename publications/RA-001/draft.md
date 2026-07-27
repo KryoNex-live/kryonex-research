@@ -1048,7 +1048,7 @@ computerized-system lifecycle and validation requirements must be evaluated in
 the applicable organizational and regulatory context.
 
 ISPE GAMP 5 provides an established risk-based industry approach to compliant
-GxP computerized systems [15].
+GxP computerized systems [14].
 
 RA-001 does not represent GAMP 5 as a universal statutory mandate.
 
