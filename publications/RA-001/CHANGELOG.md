@@ -180,11 +180,7 @@ technical review, and final editorial review.
 
 The remaining controlled-release activities are:
 
-- publication-asset and metadata freeze; and
-- website/publication-state synchronization and validation.
-
-The next milestone is the controlled publication-asset freeze and
-cross-artifact synchronization of the complete RA-001 v0.4 artifact.
+final cross-artifact consistency and release-state verification across the canonical RA-001 research repository and KryoNex website publication representation before the controlled v1.0 publication transition.
 
 No **v1.0**, **Published**, regulatory-approval, or production-validation claim
 is made by this release.
