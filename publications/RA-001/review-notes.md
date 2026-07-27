@@ -1,7 +1,7 @@
 # RA-001 Technical Review Notes
 
-**Current Version:** 0.4  
-**Status:** Under Technical Review
+**Current Version:** 1.0  
+**Status:** Published
 **Last Review Update:** 27 July 2026
 
 ## Open Items
