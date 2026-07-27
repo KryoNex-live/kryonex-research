@@ -1,22 +1,17 @@
 cff-version: 1.2.0
 message: "If you use or reference RA-001, please cite it using the metadata below."
+type: generic
+title: "KryoNex Research"
 
-title: "Building Trust Across the Pharmaceutical Supply Chain: A Reference Architecture for End-to-End Traceability"
-
-type: article
-
-authors:
-  - family-names: "Tomar"
-    given-names: "A. S."
-    orcid: "https://orcid.org/0009-0004-2859-6800"
-    affiliation: "KryoNex"
-
-version: "1.0"
-
-date-released: 2026-07-27
-
-url: "https://kryonex.live/research/ra-001-pharmaceutical-supply-chain-traceability"
-
-repository-code: "https://github.com/KryoNex-live/kryonex-research"
-
-license: "CC-BY-NC-ND-4.0"
+preferred-citation:
+  type: report
+  title: "Building Trust Across the Pharmaceutical Supply Chain: A Reference Architecture for End-to-End Traceability"
+  authors:
+    - family-names: "Tomar"
+      given-names: "A. S."
+      orcid: "https://orcid.org/0009-0004-2859-6800"
+      affiliation: "KryoNex"
+  version: "1.0"
+  date-released: "2026-07-27"
+  url: "https://kryonex.live/research/ra-001-pharmaceutical-supply-chain-traceability"
+  doi: "10.5281/zenodo.xxxxxxx"
