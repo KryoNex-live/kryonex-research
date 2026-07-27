@@ -3,7 +3,7 @@ id: RA-001
 title: "Building Trust Across the Pharmaceutical Supply Chain"
 subtitle: "A Reference Architecture for End-to-End Traceability"
 author: "A. S. Tomar"
-author_role: "KryoNex Research & Engineering Team"
+author_role: "KryoNex Research"
 status: published
 document_version: 1.0
 publish_date: "2026-07-27"
@@ -142,6 +142,16 @@ silently altering the v1.0 research record.
 - Removed evidence sources that were not required to support substantive
   RA-001 claims rather than retaining citations solely for bibliography
   breadth.
+
+### Publication Metadata
+
+- Added explicit CC BY-NC-ND 4.0 licensing metadata to the
+  RA-001 v1.0 publication artifact.
+- Added the author's ORCID identifier to publication metadata.
+- Regenerated the archival PDF and integrity checksum following
+  licensing-metadata synchronization.
+- No research claims, architecture, figures, evidence mappings,
+  or bibliography entries were changed.
 
 ### Architecture
 
