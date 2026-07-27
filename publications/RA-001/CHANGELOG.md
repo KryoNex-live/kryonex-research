@@ -62,10 +62,13 @@ research-publication version, or prior public release.
 - Updated the Indian domestic traceability analysis to distinguish the
   22 June 2026 Schedule H2 notification from the applicable commencement
   dates of the expanded provisions.
-- Updated the Indian pharmaceutical-export analysis to account for DGFT
-  Public Notice No. 44/2024-25 of 31 January 2025, which withdrew the
-  Track and Trace procedure contained in Para 2.76 of the Handbook of
-  Procedures 2023.
+- DGFT Public Notice No. 44/2024-25-DGFT withdrew Para 2.76 of the Handbook
+  of Procedures 2023 with immediate effect. The notice states that
+  implementation of the authentication system for exported drug formulations
+  shall be undertaken by the Ministry of Health & Family Welfare in line with
+  the Drugs Rules, 1945. Earlier DAVA/iVEDA mechanisms should therefore be
+  treated as historical implementation context rather than presented as the
+  unchanged current DGFT export traceability architecture.
 - Reclassified DAVA/iVEDA as historical export implementation context rather
   than representing it as the unchanged current Indian export-regulatory
   architecture.
