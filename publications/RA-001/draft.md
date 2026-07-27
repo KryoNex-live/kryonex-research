@@ -1422,4 +1422,25 @@ risk profile and regulatory environment.
 This publication does not constitute legal, regulatory, medical, quality or
 compliance advice.
 
-**© 2026 A. S. Tomar (KryoNex Research). All rights reserved.**
+**© 2026 A. S. Tomar**
+Published by KryoNex Research.
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License
+(CC BY-NC-ND 4.0).
+
+You may share this publication for non-commercial purposes provided
+appropriate attribution is given, a link to the license is provided,
+and any permitted sharing does not imply endorsement by the author,
+KryoNex, or KryoNex Research.
+
+If you remix, transform, or build upon this material, you may not
+distribute the modified material under this license.
+
+License:
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Author: A. S. Tomar
+ORCID: https://orcid.org/0009-0004-2859-6800
+Affiliation: KryoNex
+Publisher: KryoNex Research
