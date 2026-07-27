@@ -7,7 +7,7 @@ author_role: "KryoNex Research & Engineering Team"
 status: working-draft
 document_version: 0.4
 publish_date: ""
-last_updated: "2026-07-26"
+last_updated: "2026-07-27"
 tags:
   - pharmaceutical-traceability
   - supply-chain
@@ -27,7 +27,7 @@ indicate production validation or regulatory approval.
 ---
 
 ## [0.4] — 2026-07-24
-> **Technical review updated:** 26 July 2026
+> **Technical review updated:** 27 July 2026
 
 ### Research
 
@@ -153,20 +153,21 @@ Architecture completion and research-discovery freeze do **not** constitute
 publication approval, regulatory validation, production validation, or
 implementation certification.
 
-The publication remains subject to:
+The next milestone:
 
-- final primary-source and bibliography verification;
-- regulatory and standards terminology review;
-- claim-to-evidence consistency verification;
-- F01–F04 cross-figure and narrative consistency review;
-- public-disclosure and intellectual-property boundary review;
-- final technical review;
-- final editorial review;
+The publication has completed the v0.4 primary-source and bibliography
+verification, regulatory and standards terminology review, claim-to-evidence
+consistency verification, F01–F04 cross-figure and narrative consistency
+review, public-disclosure and intellectual-property boundary review, final
+technical review, and final editorial review.
+
+The remaining controlled-release activities are:
+
 - publication-asset and metadata freeze; and
 - website/publication-state synchronization and validation.
 
-The next milestone is publication-level verification and controlled
-cross-artifact synchronization of the complete RA-001 artifact.
+The next milestone is the controlled publication-asset freeze and
+cross-artifact synchronization of the complete RA-001 v0.4 artifact.
 
 No **v1.0**, **Published**, regulatory-approval, or production-validation claim
 is made by this release.
