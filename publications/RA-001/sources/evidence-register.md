@@ -193,7 +193,7 @@ implementation of the authentication system for exported drug formulations
 shall be undertaken by the Ministry of Health & Family Welfare in line with
 the Drugs Rules, 1945. Earlier DAVA/iVEDA mechanisms should therefore be
 treated as historical implementation context rather than presented as the
-unchanged current DGFT export traceability architecture..
+unchanged current DGFT export traceability architecture.
 
 Accordingly, DAVA/iVEDA may be discussed as historical implementation context
 where useful, but should not be presented as the unchanged current regulatory
@@ -328,9 +328,9 @@ regulator, standards body, academic publication, or commercial organization.
 |---|---|---|
 | Separation of physical pharmaceutical flow from the surrounding digital traceability landscape | KryoNex Research systems analysis | Original synthesis |
 | F01 — Contemporary Pharmaceutical Supply Chain | KryoNex Research | Original figure / synthesis |
-| F02 — Current Pharmaceutical Traceability Landscape | KryoNex Research synthesis from standards, regulatory frameworks, implementation mechanisms, and enterprise-systems analysis | Developed — under technical review |
+| F02 — Current Pharmaceutical Traceability Landscape | KryoNex Research synthesis from standards, regulatory frameworks, implementation mechanisms, and enterprise-systems analysis | Published architecture baseline |
 | Boundary ≠ Failure principle | KryoNex Research | Original analytical principle |
-| F03 — Trust & Visibility Boundaries | KryoNex Research assurance-boundary synthesis | Developed — under technical review |
+| F03 — Trust & Visibility Boundaries | KryoNex Research assurance-boundary synthesis | Published architecture baseline |
 | Four assurance dimensions: Product Identity, Event Integrity, Organizational Authority, Observation Correlation | KryoNex Research | Original architectural decomposition |
 | Physical truth vs. digital assertion distinction | KryoNex Research synthesis from security and traceability principles | Original analytical framing |
 | Federation-of-independently-governed-systems model | KryoNex Research | Original architectural framing |
@@ -338,7 +338,7 @@ regulator, standards body, academic publication, or commercial organization.
 | Preservation of authoritative enterprise and regulatory systems | KryoNex Research architecture constraint informed by regulatory/current-state analysis | Proposed architecture constraint |
 | Evidence Protection as a cross-cutting concern | KryoNex Research | Proposed architecture |
 | Trust & Lifecycle Governance as a cross-cutting concern | KryoNex Research | Proposed architecture |
-| F04 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability | KryoNex Research | Architecturally complete — under technical review |
+| F04 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability | KryoNex Research | Published architecture baseline |
 | Distributed ledger treated as optional and conditional rather than foundational | KryoNex Research | Active architecture constraint |
 
 This provenance register establishes authorship of the architectural selection,
@@ -507,14 +507,16 @@ source-specific evidence and appropriate qualification:
 - "One global pharmaceutical traceability architecture exists."
 - "An organizational boundary is automatically a control failure."
 
-Statements of this type require correction, qualification, or removal during
-technical review.
+Statements of this type require source-specific evidence and appropriate
+qualification. If introduced in a future revision, they must be corrected,
+qualified, or removed before that revision is released.
 
 ---
 
 # 10. Research Quality Rules
 
-Before a claim is promoted into RA-001 v1.0:
+The following rules govern maintenance of the published RA-001 evidence
+baseline and evaluation of claims proposed for future revisions:
 
 1. Prefer the primary source whenever available.
 2. Verify that the source actually supports the wording used.
@@ -541,7 +543,8 @@ Before a claim is promoted into RA-001 v1.0:
     industry practice.
 17. Preserve authoritative regulatory and enterprise systems unless the
     research establishes a specific reason not to.
-18. Re-check time-sensitive regulatory claims immediately before publication.
+18. Re-check time-sensitive regulatory claims before each subsequent
+    publication or substantive revision.
 
 ---
 
@@ -549,13 +552,31 @@ Before a claim is promoted into RA-001 v1.0:
 
 | Date | Version | Reviewer | Review Activity |
 |---|---|---|---|
+| 2026-07-27 | 1.0 | A. S. Tomar — KryoNex Research | Completed final cross-artifact and release-state verification and established the reviewed evidence register as the evidence baseline supporting the first public release of RA-001 v1.0. |
 | 2026-07-27 | 0.4 | A. S. Tomar — KryoNex Research | Completed F01–F04 architecture and cross-figure consistency review; synchronized final publication figure assets; corrected generated-artwork terminology regressions; preserved current Indian regulatory/export treatment and technology-neutral assurance architecture. |
 | 2026-07-24 | 0.4 | A. S. Tomar — KryoNex Research | Established claim-level evidence registry; separated regulatory, standards, implementation, research, synthesis, and proposed-architecture evidence classes. |
 | 2026-07-26 | 0.4 | A. S. Tomar — KryoNex Research | Completed research-discovery reconciliation for F01–F04; incorporated July 2026 regulatory/current-state corrections; updated Indian domestic/export treatment; strengthened EU/EMVS and OCI distinctions; updated counterfeit-pharmaceutical evidence; synchronized F04 provenance and architecture status. |
 
 ---
 
-# 12. Current Review State
+# 12. Current Publication State
+
+RA-001 v1.0 was published on 27 July 2026 following completion of the defined
+technical, evidence, regulatory, standards, architecture, public-disclosure,
+editorial, asset-freeze, and cross-artifact release-verification activities.
+
+This evidence register represents the evidence baseline supporting the RA-001
+v1.0 publication.
+
+At the time of the v1.0 release, no claims classified as
+`Pending Verification` are included as established facts in the publication.
+
+Publication does not constitute regulatory approval, production validation,
+implementation certification, or endorsement by any regulator, standards body,
+organization, or authority referenced by RA-001.
+
+Time-sensitive regulatory claims remain subject to revalidation in future
+revisions.
 
 # Research Notice
 
