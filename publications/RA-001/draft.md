@@ -221,7 +221,7 @@ This distinction is fundamental to RA-001.
 
 ## 2.5 Out of Scope
 
-RA-001 does not attempt to::
+RA-001 does not attempt to:
 
 - replace DSCSA, EMVS/NMVS, CDSCO, Indian domestic and export regulatory, or other regulatory infrastructure.
 - define a new pharmaceutical serialization standard.
@@ -426,8 +426,8 @@ VRS should not be interpreted as the U.S. equivalent of the European medicines
 verification repository architecture. It is one mechanism within the broader
 U.S. implementation ecosystem.
 
-FDA has also provided phased exemptions and enforcement approaches during
-DSCSA implementation. In particular, qualifying small dispensers and, where
+FDA has also provided phased exemptions and other implementation measures
+during DSCSA implementation. In particular, qualifying small dispensers and, where
 applicable, their trading partners have exemptions from specified enhanced drug
 distribution security requirements through November 27, 2026 [1].
 
@@ -474,7 +474,7 @@ force on 1 July 2027, except for the Schedule H2 provision concerning all
 antimicrobials, which comes into force on 1 July 2028.
 
 India's pharmaceutical-export traceability environment has also evolved.
-Historically, Historically, DGFT Track and Trace procedures and DAVA/iVEDA-related mechanisms were used for export serialization and reporting [16]. However, DGFT Public Notice No. 44/2024-25, dated 31 January 2025, withdrew Para 2.76 of the Handbook of Procedures 2023 concerning the Track and Trace procedure for exports of drug formulations [6]..
+Historically, DGFT Track and Trace procedures and DAVA/iVEDA-related mechanisms were used for export serialization and reporting [16]. However, DGFT Public Notice No. 44/2024-25, dated 31 January 2025, withdrew Para 2.76 of the Handbook of Procedures 2023 concerning the Track and Trace procedure for exports of drug formulations [6].
 
 Accordingly, RA-001 treats DAVA/iVEDA as relevant historical implementation
 context rather than as the unchanged current regulatory anchor for Indian
