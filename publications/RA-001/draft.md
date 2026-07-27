@@ -260,9 +260,7 @@ GS1-based implementations can combine product identifiers with serial numbers,
 batch or lot information and expiration information in machine-readable data
 carriers such as 2D DataMatrix symbols.
 
-Logistics hierarchies introduce another level of identity. Cases, pallets and
-other logistics units can be assigned identifiers such as the Serial Shipping
-Container Code (SSCC).
+Logistics hierarchies introduce another level of identity. Cases, pallets and other logistics units can be assigned identifiers such as the Serial Shipping Container Code (SSCC) [7].
 
 Aggregation can then establish parent-child associations between serialized
 saleable units and higher packaging levels.
@@ -422,9 +420,7 @@ The DSCSA environment involves authorized trading partners, product
 identifiers, transaction information, verification, investigation of suspect
 and illegitimate product and interoperable electronic exchange.
 
-Verification Router Service implementations have also emerged as
-industry-developed mechanisms supporting product-identifier verification
-workflows, including workflows associated with saleable returns.
+Verification Router Service implementations have also emerged as industry-developed mechanisms supporting product-identifier verification workflows, including workflows associated with saleable returns [10].
 
 VRS should not be interpreted as the U.S. equivalent of the European medicines
 verification repository architecture. It is one mechanism within the broader
@@ -440,8 +436,7 @@ context rather than a static technical specification.
 
 ### 3.5.2 European Union — FMD / EMVS
 
-The European pharmaceutical verification model follows a different
-architecture.
+The European Medicines Verification System operates through a European and national repository structure [4].
 
 The Falsified Medicines Directive and Delegated Regulation (EU) 2016/161
 establish safety-feature and verification requirements for applicable medicinal
@@ -479,11 +474,7 @@ force on 1 July 2027, except for the Schedule H2 provision concerning all
 antimicrobials, which comes into force on 1 July 2028.
 
 India's pharmaceutical-export traceability environment has also evolved.
-Historically, DGFT Track and Trace procedures and DAVA/iVEDA-related
-mechanisms were used for export serialization and reporting. However, DGFT
-Public Notice No. 44/2024-25, dated 31 January 2025, withdrew Para 2.76 of
-the Handbook of Procedures 2023 concerning the Track and Trace procedure
-for exports of drug formulations [6].
+Historically, Historically, DGFT Track and Trace procedures and DAVA/iVEDA-related mechanisms were used for export serialization and reporting [16]. However, DGFT Public Notice No. 44/2024-25, dated 31 January 2025, withdrew Para 2.76 of the Handbook of Procedures 2023 concerning the Track and Trace procedure for exports of drug formulations [6]..
 
 Accordingly, RA-001 treats DAVA/iVEDA as relevant historical implementation
 context rather than as the unchanged current regulatory anchor for Indian
@@ -1172,25 +1163,48 @@ incorrect histories after legitimate logistics operations.
 
 ## 7.7 Architecture Status
 
-Figures F01–F04 now form the complete logical architecture sequence for RA-001 v1.0:
+RA-001 Version 1.0 presents a published, vendor-neutral logical reference
+architecture for cross-organizational pharmaceutical traceability.
 
-- F01-F04 form the complete logical architecture sequence for RA-001 v1.0.
-- F01 establishes the physical supply-chain model.
-- F02 maps the traceability/regulatory systems landscape.
-- F03 identifies trust and visibility boundaries.
-- F04 provides the vendor-neutral logical assurance architecture.
-- regulatory review is complete for the v1.0 baseline.
-- standards-terminology review is complete.
-- claim-to-evidence review is complete.
-- architecture-consistency review is complete.
-- public-disclosure/IP review is complete.
-- publication asset/metadata freeze is complete.
-- final cross-artifact release verification is complete.
-- RA-001 v1.0 was published on 27 July 2026.
+The architecture synthesizes the physical supply-chain model, current
+traceability environments, trust and visibility boundaries, and boundary
+assurance capabilities developed across F01–F04.
 
+The reference architecture is organized into six logical layers:
 
-Regulatory, standards-terminology, claim-to-evidence, architecture-consistency and
-public-disclosure/IP reviews have been completed for the current review state.
+1. Physical Pharmaceutical Supply Chain
+2. Identification & Observation
+3. Authoritative Operational Systems
+4. Traceability Semantics & Exchange
+5. Boundary Assurance Capabilities
+6. Regulatory & Partner Ecosystems
+
+Evidence Protection and Trust & Lifecycle Governance operate as cross-cutting
+architectural concerns.
+
+The architecture preserves four distinct assurance dimensions established in
+the Trust & Visibility Boundaries model:
+
+- Product Identity
+- Event Integrity
+- Organizational Authority
+- Observation Correlation
+
+These dimensions are related but are not interchangeable. Establishing one
+does not by itself establish the others.
+
+RA-001 does not prescribe blockchain, distributed-ledger technology, IoT,
+verifiable credentials, or any other individual technology as a universal
+requirement. Technology and implementation mechanisms should be selected
+according to the relevant trust boundary, regulatory context, operational
+requirements, governance model, privacy constraints, interoperability needs,
+and evidence requirements.
+
+The architecture is a reference model rather than a production-certified
+implementation. Its publication does not constitute regulatory approval,
+implementation certification, or evidence that every architectural mechanism
+described is required or appropriate in every pharmaceutical supply-chain
+environment.
 
 ---
 
@@ -1382,6 +1396,8 @@ Second Edition, 2022.
 [15] Directive 2011/62/EU of the European Parliament and of the Council of
 8 June 2011 amending Directive 2001/83/EC as regards the prevention of the
 entry into the legal supply chain of falsified medicinal products.
+
+[16] Pharmaceuticals Export Promotion Council of India (Pharmexcil), iVEDA Web Portal — Beta Version launched and LIVE NOW FOR COMPANY REGISTRATION & DATA UPLOAD, Circular PXL/HO/Cir-039/2020-21, 25 June 2020.
 
 ---
 
