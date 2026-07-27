@@ -655,7 +655,7 @@ the underlying evidence originates.
 
 ## 5.1 F01 — Contemporary Pharmaceutical Supply Chain
 
-![Figure 1 — Contemporary Pharmaceutical Supply Chain](figures/RA-001-F01.svg)
+![Figure 1 — Contemporary Pharmaceutical Supply Chain](figures/RA-001-F01-v0.4-PUBLICATION.png)
 
 **Figure 1. Contemporary Pharmaceutical Supply Chain.**  
 A conceptual physical-flow model from pharmaceutical packaging and
@@ -690,7 +690,7 @@ systems analysis.
 
 ## 5.2 F02 — Current Pharmaceutical Traceability Landscape
 
-![Figure 2 — Current Pharmaceutical Traceability Landscape](figures/RA-001-F02.PNG)
+![Figure 2 — Current Pharmaceutical Traceability Landscape](figures/RA-001-F02-v0.4-PUBLICATION.png)
 
 **Figure 2. Current Pharmaceutical Traceability Landscape.**  
 A vendor-neutral systems view of the principal digital layers surrounding the
@@ -732,7 +732,7 @@ That question is examined in F03.
 
 ## 5.3 F03 — Trust and Visibility Boundaries
 
-![Figure 3 — Trust and Visibility Boundaries in Pharmaceutical Traceability](figures/RA-001-F03-v0.4.svg)
+![Figure 3 — Trust and Visibility Boundaries in Pharmaceutical Traceability](figures/RA-001-F03-v0.4-PUBLICATION.png)
 
 **Figure 3. Trust and Visibility Boundaries in Pharmaceutical Traceability.**  
 A conceptual assurance model identifying transitions among physical products,
@@ -852,7 +852,7 @@ Four distinctions constrain interpretation of the architecture:
 
 Accordingly, Figure 4 should be interpreted as a logical assurance model rather than a mandatory technology stack.
 
-![Figure 4 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability](figures/RA-001-F04-v0.4.svg)
+![Figure 4 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability](figures/RA-001-F04-v0.4-PUBLICATION.png)
 
 *Figure 4 — Logical Assurance Architecture for Cross-Organizational Pharmaceutical Traceability. The model preserves existing authoritative systems while introducing boundary-specific assurance capabilities. Cryptographic, credential, sensor, or shared-ledger mechanisms are conditional implementation choices rather than universal requirements.*
 
