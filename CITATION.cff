@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use or reference RA-001, please cite it using the metadata below."
+title: "Building Trust Across the Pharmaceutical Supply Chain: A Reference Architecture for End-to-End Traceability"
+type: report
+authors:
+  - family-names: "Tomar"
+    given-names: "A. S."
+version: "1.0"
+date-released: "2026-07-27"
+publisher: "KryoNex Research"
+url: "https://kryonex.live/research/ra-001-pharmaceutical-supply-chain-traceability"
+repository-code: "https://github.com/KryoNex-live/kryonex-research"
