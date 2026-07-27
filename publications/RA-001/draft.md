@@ -1387,4 +1387,4 @@ risk profile and regulatory environment.
 This publication does not constitute legal, regulatory, medical, quality or
 compliance advice.
 
-**© 2026 KryoNex Research.**
+**© 2026 A. S. Tomar (KryoNex Research). All rights reserved.**
