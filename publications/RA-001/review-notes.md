@@ -14,7 +14,7 @@
 - [x] Complete F04 — Proposed Logical Reference Architecture.
 - [x] Reconcile the July 2026 Indian regulatory state, including the Schedule H2 amendment and the January 2025 DGFT Track and Trace policy change.
 - [ ] Validate final terminology against GS1 EPCIS/CBV 2.0, GS1 identification terminology, W3C VC/DID terminology, and applicable OCI terminology.
-- [ ] Complete final regulatory review for US, EU and India.
+- [x] Complete final regulatory review for US, EU and India.
 - [ ] Perform public-disclosure/IP boundary review.
 - [x] Complete final technical review of F01–F04 as one architecture.
 - [ ] Verify claim-to-evidence consistency across draft.md and sources/evidence-register.md.
