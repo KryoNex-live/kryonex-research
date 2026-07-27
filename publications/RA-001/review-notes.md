@@ -32,7 +32,7 @@ RA-001 must not be marked **v1.0**, **Published**, or released for search
 indexing until all open technical-review items affecting substantive claims
 have been resolved.
 
-Completion of F01–F04 establishes architectural completeness for the v0.4
+Completion of F01–F04 establishes architectural completeness for the v1.0
 working draft; it does not constitute regulatory validation, publication
 approval, or production validation.
 
